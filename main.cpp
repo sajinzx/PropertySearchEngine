@@ -65,7 +65,7 @@ void Listing() {
 
       string propertyID = generatePropertyID("Apartment", ownerName, price, area);
 
-      Apartment apt(propertyID, ownerName, "Apartment", latitude, longitude,
+      Apartment apt(propertyID, ownerName,  latitude, longitude,
                     price, area, address, isAvailable, facing, landmark,
                     ownershipType, floorNumber, totalFloors, bedrooms, hasLift,
                     hasParking, maintenanceCharge, furnishingStatus);
@@ -122,7 +122,7 @@ void Listing() {
 
       string propertyID = generatePropertyID("Villa", ownerName, price, area);
 
-      Villa villa(propertyID, ownerName, "Villa", latitude, longitude, price,
+      Villa villa(propertyID, ownerName, latitude, longitude, price,
                   area, address, isAvailable, facing, landmark, ownershipType,
                   bedrooms, hasGarden, hasPrivatePool, plotArea, hasGarage,
                   furnishingStatus);
@@ -177,7 +177,7 @@ void Listing() {
 
       string propertyID = generatePropertyID("Land", ownerName, price, area);
 
-      Land land(propertyID, ownerName, "Land", latitude, longitude, price, area,
+      Land land(propertyID, ownerName, latitude, longitude, price, area,
                 address, isAvailable, facing, landmark, ownershipType, landType,
                 hasCompoundWall, nearMainRoad, isDTCPApproved, hasElectricity,
                 hasWater);
