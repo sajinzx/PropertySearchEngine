@@ -26,473 +26,473 @@ void Listing() {
     cin >> choice;
 
     switch (choice) {
-    case 1: {
-        string ownerName, address, facing, landmark, ownershipType, furnishingStatus;
-        int floorNumber = 0, totalFloors = 0, bedrooms = 0;
-        double latitude = 0.0, longitude = 0.0, price = 0.0, area = 0.0, maintenanceCharge = 0.0;
-        int tmpInt;
-        bool isAvailable = false, hasLift = false, hasParking = false;
+        case 1: {
+            string ownerName, address, facing, landmark, ownershipType, furnishingStatus;
+            int floorNumber = 0, totalFloors = 0, bedrooms = 0;
+            double latitude = 0.0, longitude = 0.0, price = 0.0, area = 0.0, maintenanceCharge = 0.0;
+            int tmpInt;
+            bool isAvailable = false, hasLift = false, hasParking = false;
 
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        while (true) {
-            cout << "Enter owner name: ";
-            getline(cin, ownerName);
-            if (!ownerName.empty()) break;
-            cout << "Owner name cannot be empty. Please re-enter.\n";
-        }
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            while (true) {
+                cout << "Enter owner name: ";
+                getline(cin, ownerName);
+                if (!ownerName.empty()) break;
+                cout << "Owner name cannot be empty. Please re-enter.\n";
+            }
 
-        while (true) {
-            cout << "Enter latitude (-90 to 90): ";
-            if (cin >> latitude) {
-                if (latitude >= -90.0 && latitude <= 90.0) {
+            while (true) {
+                cout << "Enter latitude (-90 to 90): ";
+                if (cin >> latitude) {
+                    if (latitude >= -90.0 && latitude <= 90.0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Latitude out of range. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter a numeric latitude.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter longitude (-180 to 180): ";
+                if (cin >> longitude) {
+                    if (longitude >= -180.0 && longitude <= 180.0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Longitude out of range. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter a numeric longitude.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter price: ";
+                if (cin >> price) {
+                    if (price >= 0.0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Price must be non-negative. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter a numeric price.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter area: ";
+                if (cin >> area) {
+                    if (area > 0.0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Area must be positive. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter a numeric area.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter address: ";
+                getline(cin, address);
+                if (!address.empty()) break;
+                cout << "Address cannot be empty. Please re-enter.\n";
+            }
+
+            while (true) {
+                cout << "Is available (1 for yes / 0 for no): ";
+                if (cin >> tmpInt) {
+                    if (tmpInt == 0 || tmpInt == 1) {
+                        isAvailable = (tmpInt == 1);
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Enter 1 or 0.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter facing: ";
+                getline(cin, facing);
+                if (!facing.empty()) break;
+                cout << "Facing cannot be empty. Please re-enter.\n";
+            }
+
+            while (true) {
+                cout << "Enter landmark: ";
+                getline(cin, landmark);
+                if (!landmark.empty()) break;
+                cout << "Landmark cannot be empty. Please re-enter.\n";
+            }
+
+            while (true) {
+                cout << "Enter ownership type: ";
+                getline(cin, ownershipType);
+                if (!ownershipType.empty()) break;
+                cout << "Ownership type cannot be empty. Please re-enter.\n";
+            }
+
+            while (true) {
+                cout << "Enter floor number (0 or positive integer): ";
+                if (cin >> floorNumber) {
+                    if (floorNumber >= 0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Floor number must be >= 0. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter an integer.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter total floors (must be >= floor number): ";
+                if (cin >> totalFloors) {
+                    if (totalFloors >= floorNumber) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Total floors must be >= floor number. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter an integer.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter number of bedrooms: ";
+                if (cin >> bedrooms) {
+                    if (bedrooms >= 0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Bedrooms must be >= 0. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter an integer.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Has lift (1 for yes / 0 for no): ";
+                if (cin >> tmpInt) {
+                    if (tmpInt == 0 || tmpInt == 1) {
+                        hasLift = (tmpInt == 1);
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Enter 1 or 0.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Has parking (1 for yes / 0 for no): ";
+                if (cin >> tmpInt) {
+                    if (tmpInt == 0 || tmpInt == 1) {
+                        hasParking = (tmpInt == 1);
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Enter 1 or 0.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter maintenance charge: ";
+                if (cin >> maintenanceCharge) {
+                    if (maintenanceCharge >= 0.0) {
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        break;
+                    } else {
+                        cout << "Maintenance charge must be non-negative. Try again.\n";
+                    }
+                } else {
+                    cout << "Invalid input. Enter a numeric value.\n";
+                    cin.clear();
+                }
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+
+            while (true) {
+                cout << "Enter furnishing status: ";
+                getline(cin, furnishingStatus);
+                if (!furnishingStatus.empty()) break;
+                cout << "Furnishing status cannot be empty. Please re-enter.\n";
+            }
+
+            string propertyID = generatePropertyID("Apartment", ownerName, price, area);
+            Apartment apt(propertyID, ownerName, latitude, longitude, price, area, address, isAvailable, facing, landmark, ownershipType, floorNumber, totalFloors, bedrooms, hasLift, hasParking, maintenanceCharge, furnishingStatus);
+            cout << "\nApartment Listed Successfully:\n";
+            apt.display();
+
+            ofstream file("properties.txt", ios::app);
+            file << "Type: Apartment\n";
+            file << "Property ID: " << propertyID << endl;
+            file << "Owner: " << ownerName << endl;
+            file << "Latitude: " << latitude << endl;
+            file << "Longitude: " << longitude << endl;
+            file << "Price: " << price << endl;
+            file << "Area: " << area << endl;
+            file << "Address: " << address << endl;
+            file << "Availability: " << isAvailable << endl;
+            file << "Facing: " << facing << endl;
+            file << "Landmark: " << landmark << endl;
+            file << "Ownership: " << ownershipType << endl;
+            file << "Floors: " << floorNumber << "/" << totalFloors << endl;
+            file << "Bedrooms: " << bedrooms << endl;
+            file << "Lift: " << hasLift << endl;
+            file << "Parking: " << hasParking << endl;
+            file << "Maintenance: " << maintenanceCharge << endl;
+            file << "Furnishing: " << furnishingStatus << endl;
+            file << "----------------------------------------" << endl;
+            file.close();
+            break;
+    }
+
+
+        case 2: {
+            string ownerName, address, facing, landmark, ownershipType, furnishingStatus;
+            int bedrooms = 0;
+            double latitude = 0.0, longitude = 0.0, price = 0.0, area = 0.0, plotArea = 0.0;
+            int tmpInt;
+            bool isAvailable = false, hasGarden = false, hasPrivatePool = false, hasGarage = false;
+
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+            while (true) {
+                cout << "Enter owner name: ";
+                getline(cin, ownerName);
+                if (!ownerName.empty()) break;
+                cout << "Owner name cannot be empty. Please re-enter.\n";
+            }
+
+            while (true) {
+                cout << "Enter latitude (-90 to 90): ";
+                if (cin >> latitude && latitude >= -90.0 && latitude <= 90.0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Latitude out of range. Try again.\n";
+                    cout << "Invalid latitude. Enter a value between -90 and 90.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter a numeric latitude.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter longitude (-180 to 180): ";
-            if (cin >> longitude) {
-                if (longitude >= -180.0 && longitude <= 180.0) {
+            while (true) {
+                cout << "Enter longitude (-180 to 180): ";
+                if (cin >> longitude && longitude >= -180.0 && longitude <= 180.0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Longitude out of range. Try again.\n";
+                    cout << "Invalid longitude. Enter a value between -180 and 180.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter a numeric longitude.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter price: ";
-            if (cin >> price) {
-                if (price >= 0.0) {
+            while (true) {
+                cout << "Enter price: ";
+                if (cin >> price && price >= 0.0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Price must be non-negative. Try again.\n";
+                    cout << "Invalid price. Enter a non-negative number.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter a numeric price.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter area: ";
-            if (cin >> area) {
-                if (area > 0.0) {
+            while (true) {
+                cout << "Enter area (sq.ft): ";
+                if (cin >> area && area > 0.0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Area must be positive. Try again.\n";
+                    cout << "Invalid area. Enter a positive number.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter a numeric area.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter address: ";
-            getline(cin, address);
-            if (!address.empty()) break;
-            cout << "Address cannot be empty. Please re-enter.\n";
-        }
+            while (true) {
+                cout << "Enter address: ";
+                getline(cin, address);
+                if (!address.empty()) break;
+                cout << "Address cannot be empty. Please re-enter.\n";
+            }
 
-        while (true) {
-            cout << "Is available (1 for yes / 0 for no): ";
-            if (cin >> tmpInt) {
-                if (tmpInt == 0 || tmpInt == 1) {
+            while (true) {
+                cout << "Is available (1 for yes / 0 for no): ";
+                if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
                     isAvailable = (tmpInt == 1);
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Enter 1 or 0.\n";
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter facing: ";
-            getline(cin, facing);
-            if (!facing.empty()) break;
-            cout << "Facing cannot be empty. Please re-enter.\n";
-        }
+            while (true) {
+                cout << "Enter facing: ";
+                getline(cin, facing);
+                if (!facing.empty()) break;
+                cout << "Facing cannot be empty. Please re-enter.\n";
+            }
 
-        while (true) {
-            cout << "Enter landmark: ";
-            getline(cin, landmark);
-            if (!landmark.empty()) break;
-            cout << "Landmark cannot be empty. Please re-enter.\n";
-        }
+            while (true) {
+                cout << "Enter landmark: ";
+                getline(cin, landmark);
+                if (!landmark.empty()) break;
+                cout << "Landmark cannot be empty. Please re-enter.\n";
+            }
 
-        while (true) {
-            cout << "Enter ownership type: ";
-            getline(cin, ownershipType);
-            if (!ownershipType.empty()) break;
-            cout << "Ownership type cannot be empty. Please re-enter.\n";
-        }
+            while (true) {
+                cout << "Enter ownership type: ";
+                getline(cin, ownershipType);
+                if (!ownershipType.empty()) break;
+                cout << "Ownership type cannot be empty. Please re-enter.\n";
+            }
 
-        while (true) {
-            cout << "Enter floor number (0 or positive integer): ";
-            if (cin >> floorNumber) {
-                if (floorNumber >= 0) {
+            while (true) {
+                cout << "Enter number of bedrooms: ";
+                if (cin >> bedrooms && bedrooms >= 0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Floor number must be >= 0. Try again.\n";
+                    cout << "Invalid input. Bedrooms must be a non-negative integer.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter an integer.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter total floors (must be >= floor number): ";
-            if (cin >> totalFloors) {
-                if (totalFloors >= floorNumber) {
+            while (true) {
+                cout << "Has garden (1 for yes / 0 for no): ";
+                if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
+                    hasGarden = (tmpInt == 1);
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Total floors must be >= floor number. Try again.\n";
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter an integer.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter number of bedrooms: ";
-            if (cin >> bedrooms) {
-                if (bedrooms >= 0) {
+            while (true) {
+                cout << "Has private pool (1 for yes / 0 for no): ";
+                if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
+                    hasPrivatePool = (tmpInt == 1);
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Bedrooms must be >= 0. Try again.\n";
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter an integer.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Has lift (1 for yes / 0 for no): ";
-            if (cin >> tmpInt) {
-                if (tmpInt == 0 || tmpInt == 1) {
-                    hasLift = (tmpInt == 1);
+            while (true) {
+                cout << "Enter plot area (sq.ft): ";
+                if (cin >> plotArea && plotArea > 0.0) {
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Enter 1 or 0.\n";
+                    cout << "Invalid input. Enter a positive number for plot area.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Has parking (1 for yes / 0 for no): ";
-            if (cin >> tmpInt) {
-                if (tmpInt == 0 || tmpInt == 1) {
-                    hasParking = (tmpInt == 1);
+            while (true) {
+                cout << "Has garage (1 for yes / 0 for no): ";
+                if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
+                    hasGarage = (tmpInt == 1);
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     break;
                 } else {
-                    cout << "Enter 1 or 0.\n";
-                }
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
-            }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
-
-        while (true) {
-            cout << "Enter maintenance charge: ";
-            if (cin >> maintenanceCharge) {
-                if (maintenanceCharge >= 0.0) {
+                    cout << "Invalid input. Enter 1 or 0.\n";
+                    cin.clear();
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                    break;
-                } else {
-                    cout << "Maintenance charge must be non-negative. Try again.\n";
                 }
-            } else {
-                cout << "Invalid input. Enter a numeric value.\n";
-                cin.clear();
             }
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
 
-        while (true) {
-            cout << "Enter furnishing status: ";
-            getline(cin, furnishingStatus);
-            if (!furnishingStatus.empty()) break;
-            cout << "Furnishing status cannot be empty. Please re-enter.\n";
-        }
-
-        string propertyID = generatePropertyID("Apartment", ownerName, price, area);
-        Apartment apt(propertyID, ownerName, latitude, longitude, price, area, address, isAvailable, facing, landmark, ownershipType, floorNumber, totalFloors, bedrooms, hasLift, hasParking, maintenanceCharge, furnishingStatus);
-        cout << "\nApartment Listed Successfully:\n";
-        apt.display();
-
-        ofstream file("properties.txt", ios::app);
-        file << "Type: Apartment\n";
-        file << "Property ID: " << propertyID << endl;
-        file << "Owner: " << ownerName << endl;
-        file << "Latitude: " << latitude << endl;
-        file << "Longitude: " << longitude << endl;
-        file << "Price: " << price << endl;
-        file << "Area: " << area << endl;
-        file << "Address: " << address << endl;
-        file << "Availability: " << isAvailable << endl;
-        file << "Facing: " << facing << endl;
-        file << "Landmark: " << landmark << endl;
-        file << "Ownership: " << ownershipType << endl;
-        file << "Floors: " << floorNumber << "/" << totalFloors << endl;
-        file << "Bedrooms: " << bedrooms << endl;
-        file << "Lift: " << hasLift << endl;
-        file << "Parking: " << hasParking << endl;
-        file << "Maintenance: " << maintenanceCharge << endl;
-        file << "Furnishing: " << furnishingStatus << endl;
-        file << "----------------------------------------" << endl;
-        file.close();
-        break;
-}
-
-
-    case 2: {
-        string ownerName, address, facing, landmark, ownershipType, furnishingStatus;
-        int bedrooms = 0;
-        double latitude = 0.0, longitude = 0.0, price = 0.0, area = 0.0, plotArea = 0.0;
-        int tmpInt;
-        bool isAvailable = false, hasGarden = false, hasPrivatePool = false, hasGarage = false;
-
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
-        while (true) {
-            cout << "Enter owner name: ";
-            getline(cin, ownerName);
-            if (!ownerName.empty()) break;
-            cout << "Owner name cannot be empty. Please re-enter.\n";
-        }
-
-        while (true) {
-            cout << "Enter latitude (-90 to 90): ";
-            if (cin >> latitude && latitude >= -90.0 && latitude <= 90.0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid latitude. Enter a value between -90 and 90.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            while (true) {
+                cout << "Enter furnishing status: ";
+                getline(cin, furnishingStatus);
+                if (!furnishingStatus.empty()) break;
+                cout << "Furnishing status cannot be empty. Please re-enter.\n";
             }
+
+            string propertyID = generatePropertyID("Villa", ownerName, price, area);
+            Villa villa(propertyID, ownerName, latitude, longitude, price, area, address, isAvailable, facing,
+                        landmark, ownershipType, bedrooms, hasGarden, hasPrivatePool, plotArea, hasGarage, furnishingStatus);
+
+            cout << "\nVilla Listed Successfully:\n";
+            villa.display();
+
+            ofstream file("properties.txt", ios::app);
+            file << "Type: Villa\n";
+            file << "Property ID: " << propertyID << endl;
+            file << "Owner: " << ownerName << endl;
+            file << "Latitude: " << latitude << endl;
+            file << "Longitude: " << longitude << endl;
+            file << "Price: " << price << endl;
+            file << "Area: " << area << endl;
+            file << "Address: " << address << endl;
+            file << "Availability: " << isAvailable << endl;
+            file << "Facing: " << facing << endl;
+            file << "Landmark: " << landmark << endl;
+            file << "Ownership: " << ownershipType << endl;
+            file << "Bedrooms: " << bedrooms << endl;
+            file << "Garden: " << hasGarden << endl;
+            file << "Private Pool: " << hasPrivatePool << endl;
+            file << "Plot Area: " << plotArea << endl;
+            file << "Garage: " << hasGarage << endl;
+            file << "Furnishing: " << furnishingStatus << endl;
+            file << "----------------------------------------" << endl;
+            file.close();
+            break;
         }
 
-        while (true) {
-            cout << "Enter longitude (-180 to 180): ";
-            if (cin >> longitude && longitude >= -180.0 && longitude <= 180.0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid longitude. Enter a value between -180 and 180.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
 
-        while (true) {
-            cout << "Enter price: ";
-            if (cin >> price && price >= 0.0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid price. Enter a non-negative number.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Enter area (sq.ft): ";
-            if (cin >> area && area > 0.0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid area. Enter a positive number.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Enter address: ";
-            getline(cin, address);
-            if (!address.empty()) break;
-            cout << "Address cannot be empty. Please re-enter.\n";
-        }
-
-        while (true) {
-            cout << "Is available (1 for yes / 0 for no): ";
-            if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
-                isAvailable = (tmpInt == 1);
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Enter facing: ";
-            getline(cin, facing);
-            if (!facing.empty()) break;
-            cout << "Facing cannot be empty. Please re-enter.\n";
-        }
-
-        while (true) {
-            cout << "Enter landmark: ";
-            getline(cin, landmark);
-            if (!landmark.empty()) break;
-            cout << "Landmark cannot be empty. Please re-enter.\n";
-        }
-
-        while (true) {
-            cout << "Enter ownership type: ";
-            getline(cin, ownershipType);
-            if (!ownershipType.empty()) break;
-            cout << "Ownership type cannot be empty. Please re-enter.\n";
-        }
-
-        while (true) {
-            cout << "Enter number of bedrooms: ";
-            if (cin >> bedrooms && bedrooms >= 0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Bedrooms must be a non-negative integer.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Has garden (1 for yes / 0 for no): ";
-            if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
-                hasGarden = (tmpInt == 1);
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Has private pool (1 for yes / 0 for no): ";
-            if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
-                hasPrivatePool = (tmpInt == 1);
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Enter plot area (sq.ft): ";
-            if (cin >> plotArea && plotArea > 0.0) {
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Enter a positive number for plot area.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Has garage (1 for yes / 0 for no): ";
-            if (cin >> tmpInt && (tmpInt == 0 || tmpInt == 1)) {
-                hasGarage = (tmpInt == 1);
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                break;
-            } else {
-                cout << "Invalid input. Enter 1 or 0.\n";
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            }
-        }
-
-        while (true) {
-            cout << "Enter furnishing status: ";
-            getline(cin, furnishingStatus);
-            if (!furnishingStatus.empty()) break;
-            cout << "Furnishing status cannot be empty. Please re-enter.\n";
-        }
-
-        string propertyID = generatePropertyID("Villa", ownerName, price, area);
-        Villa villa(propertyID, ownerName, latitude, longitude, price, area, address, isAvailable, facing,
-                    landmark, ownershipType, bedrooms, hasGarden, hasPrivatePool, plotArea, hasGarage, furnishingStatus);
-
-        cout << "\nVilla Listed Successfully:\n";
-        villa.display();
-
-        ofstream file("properties.txt", ios::app);
-        file << "Type: Villa\n";
-        file << "Property ID: " << propertyID << endl;
-        file << "Owner: " << ownerName << endl;
-        file << "Latitude: " << latitude << endl;
-        file << "Longitude: " << longitude << endl;
-        file << "Price: " << price << endl;
-        file << "Area: " << area << endl;
-        file << "Address: " << address << endl;
-        file << "Availability: " << isAvailable << endl;
-        file << "Facing: " << facing << endl;
-        file << "Landmark: " << landmark << endl;
-        file << "Ownership: " << ownershipType << endl;
-        file << "Bedrooms: " << bedrooms << endl;
-        file << "Garden: " << hasGarden << endl;
-        file << "Private Pool: " << hasPrivatePool << endl;
-        file << "Plot Area: " << plotArea << endl;
-        file << "Garage: " << hasGarage << endl;
-        file << "Furnishing: " << furnishingStatus << endl;
-        file << "----------------------------------------" << endl;
-        file.close();
-        break;
-    }
-
-
-    case 3: {
+        case 3: {
         string ownerName, address, facing, landmark, ownershipType, landType;
         double latitude = 0.0, longitude = 0.0, price = 0.0, area = 0.0;
         int tmpInt;
@@ -701,6 +701,135 @@ void Listing() {
     }
 }
 
+void Finding()
+{
+    int choice;
+    cout<<"You Chose Finding Property\n";
+    cout<<"What are you looking for\n";
+    cout<<"1.Apartment\n";
+    cout<<"2.Villa\n";
+    cout<<"3.Land\n";
+    cout<<"4.Exit\n";
+    cin>>choice;
+    switch(choice)
+    {
+        case 1:
+            int inputapt;
+            cout<<"You chose Apartment\n";
+            cout<<"1.Choose By Owner\n";
+            cout<<"2.Choose By Landmark\n";
+            cout<<"3.Choose By Latitude and Longitude\n";
+            cout<<"4.Choose By Price\n";
+            cout<<"5.Choose By Bedrooms\n";
+            cout<<"6.Exit\n";
+            cin>>inputapt;
+            switch(inputapt)
+            {
+                case 1:
+                    cout<<"Search By Owner\n";
+                    break;
+                case 2:
+                    cout<<"Search By Landmark\n";
+                    break;
+                case 3:
+                    cout<<"Search By Latitude and Longitude\n";
+                    break;
+                case 4:
+                    cout<<"Search By Price\n";
+                    break;
+                case 5:
+                    cout<<"Search By Bedrooms\n";
+                    break;
+                case 6:
+                    cout<<"Exiting Search\n";
+                    return;
+
+            }
+            break;
+        case 2:
+            int inputvil;
+            cout<<"You chose Villa\n";
+            cout<<"1.Choose By Owner\n";
+            cout<<"2.Choose By Landmark\n";
+            cout<<"3.Choose By Latitude and Longitude\n";
+            cout<<"4.Choose By Price\n";
+            cout<<"5.Choose By Bedrooms\n";
+            cout<<"6.Exit\n";
+            cin>>inputvil;
+            switch(inputvil)
+            {
+                case 1:
+                    cout<<"Search By Owner\n";
+                    break;
+                case 2:
+                    cout<<"Search By Landmark\n";
+                    break;
+                case 3:
+                    cout<<"Search By Latitude and Longitude\n";
+                    break;
+                case 4:
+                    cout<<"Search By Price\n";
+                    break;
+                case 5:
+                    cout<<"Search By Bedrooms\n";
+                    break;
+                case 6:
+                    cout<<"Exiting Search\n";
+                    return;
+
+            }
+            break;
+        case 3:
+            int inputland;
+            cout<<"You chose Land\n";
+            cout<<"1.Choose By Owner\n";
+            cout<<"2.Choose By Landmark\n";
+            cout<<"3.Choose By Latitude and Longitude\n";
+            cout<<"4.Choose By Price\n";
+            cout<<"5.Choose By DTCP Approval\n";
+            cout<<"6.Choose By Electricity access\n";
+            cout<<"7.Choose By Water Status\n";
+            cout<<"8.Exit\n";
+            cin>>inputland;
+            switch(inputland)
+            {
+                case 1:
+                    cout<<"Search By Owner\n";
+                    break;
+                case 2:
+                    cout<<"Search By Landmark\n";
+                    break;
+                case 3:
+                    cout<<"Search By Latitude and Longitude\n";
+                    break;
+                case 4:
+                    cout<<"Search By Price\n";
+                    break;
+                case 5:
+                    cout<<"Search By DTCP\n";
+                    break;
+                case 6:
+                    cout<<"Search By Electricity access\n";
+                    break;
+                case 7:
+                    cout<<"Search By Water access\n";
+                    break;
+                case 8:
+                    cout<<"Exiting Search\n";
+                    return;
+
+            }
+            break;
+        case 4:
+            cout<<"Exiting Finding\n";
+            return;
+        default:
+            cout << "Invalid choice. Please try again.\n";
+            break;
+    }
+    
+}
+
 
 int main()
 {
@@ -721,7 +850,7 @@ int main()
                 break;
             
             case 2:
-                cout<<"You chose Finding\n";
+                Finding();
                 break;
             case 3:
                 cout<<"You chose exit\n";
