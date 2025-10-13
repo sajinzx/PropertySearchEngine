@@ -1,0 +1,76 @@
+Type: Apartment
+Property ID: APA_SAJ_1234_1759863070
+Owner: sajin
+Latitude: 12
+Longitude: 11
+Price: 1234
+Area: 0
+Address: 
+Availability: 111
+Facing: 
+Landmark: 
+Ownership: 
+Floors: 1878003808/6421960
+Bedrooms: -2
+Lift: 240
+Parking: 16
+Maintenance: 8.00619e-307
+Furnishing: 
+----------------------------------------
+Type: Apartment
+Property ID: APA_SAJ_2_1759863103
+Owner: sajin
+Latitude: 1
+Longitude: 1
+Price: 1
+Area: 1
+Address: 1
+Availability: 1
+Facing: north
+Landmark: coimbatore
+Ownership: own
+Floors: 1/1
+Bedrooms: 1
+Lift: 1
+Parking: 1
+Maintenance: 1
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SAJ_22_1759947583
+Owner: sajin
+Latitude: 12
+Longitude: 13
+Price: 11
+Area: 11
+Address: 11
+Availability: 1
+Facing: east
+Landmark: haha
+Ownership: own
+Land Type: commercial
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_NAV_4679_1759948829
+Owner: naveen
+Latitude: 87
+Longitude: 73
+Price: 123
+Area: 4556
+Address: 222
+Availability: 1
+Facing: 44
+Landmark: 33
+Ownership: 22
+Floors: 3/4
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 123
+Furnishing: 33
+----------------------------------------
