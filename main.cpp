@@ -5,6 +5,8 @@
 #include "Land.h"
 #include "PropertyIDGenerator.h"
 #include "Villa.h"
+#include "PropertySearchTrie.h"
+#include "TrieLoader.h"
 using namespace std;
 
 void saveToFile(const string& type, const string& details) {
@@ -703,6 +705,11 @@ void Listing() {
 
 void Finding()
 {
+    PropertySearchTrie ownerTrie;
+    PropertySearchTrie landmarkTrie;
+    unordered_map<int, string> idToPropID;
+    int nextIndexId = 1;
+    loadTriesFromFile("properties.txt", ownerTrie, landmarkTrie, idToPropID, nextIndexId);
     int choice;
     cout<<"You Chose Finding Property\n";
     cout<<"What are you looking for\n";
@@ -726,11 +733,51 @@ void Finding()
             switch(inputapt)
             {
                 case 1:
-                    cout<<"Search By Owner\n";
+                {
+                    cout << "Search By Owner Name:\n";
+                    cin.ignore();
+                    string name;
+                    getline(cin, name);
+
+                    vector<int> results = ownerTrie.search(name);
+                    bool found = false;
+                    cout << "\nApartments found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("APA_", 0) == 0) // check if it starts with "APA_"
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Apartments found for owner \"" << name << "\".\n";
                     break;
+                }
                 case 2:
-                    cout<<"Search By Landmark\n";
+                {
+                    cout << "Search By Landmark:\n";
+                    cin.ignore();
+                    string landmark;
+                    getline(cin, landmark);
+
+                    vector<int> results = landmarkTrie.search(landmark);
+                    bool found = false;
+                    cout << "\nApartments found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("APA_", 0) == 0)
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Apartments found near \"" << landmark << "\".\n";
                     break;
+                }
                 case 3:
                     cout<<"Search By Latitude and Longitude\n";
                     break;
@@ -759,11 +806,51 @@ void Finding()
             switch(inputvil)
             {
                 case 1:
-                    cout<<"Search By Owner\n";
+                {
+                    cout << "Search By Owner Name:\n";
+                    cin.ignore();
+                    string name;
+                    getline(cin, name);
+
+                    vector<int> results = ownerTrie.search(name);
+                    bool found = false;
+                    cout << "\nVillas found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("VIL_", 0) == 0)
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Villas found for owner \"" << name << "\".\n";
                     break;
+                }
                 case 2:
-                    cout<<"Search By Landmark\n";
+                {
+                    cout << "Search By Landmark:\n";
+                    cin.ignore();
+                    string landmark;
+                    getline(cin, landmark);
+
+                    vector<int> results = landmarkTrie.search(landmark);
+                    bool found = false;
+                    cout << "\nVillas found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("VIL_", 0) == 0)
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Villas found near \"" << landmark << "\".\n";
                     break;
+                }
                 case 3:
                     cout<<"Search By Latitude and Longitude\n";
                     break;
@@ -794,11 +881,52 @@ void Finding()
             switch(inputland)
             {
                 case 1:
-                    cout<<"Search By Owner\n";
+                {
+                    cout << "Search By Owner Name:\n";
+                    cin.ignore();
+                    string name;
+                    getline(cin, name);
+
+                    vector<int> results = ownerTrie.search(name);
+                    bool found = false;
+                    cout << "\nLands found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("LAN_", 0) == 0)
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Lands found for owner \"" << name << "\".\n";
                     break;
+                }
+
                 case 2:
-                    cout<<"Search By Landmark\n";
+                {
+                    cout << "Search By Landmark:\n";
+                    cin.ignore();
+                    string landmark;
+                    getline(cin, landmark);
+
+                    vector<int> results = landmarkTrie.search(landmark);
+                    bool found = false;
+                    cout << "\nLands found:\n";
+                    for (int id : results)
+                    {
+                        string pid = idToPropID[id];
+                        if (pid.rfind("LAN_", 0) == 0)
+                        {
+                            cout << "- Property ID: " << pid << endl;
+                            found = true;
+                        }
+                    }
+                    if (!found)
+                        cout << "No Lands found near \"" << landmark << "\".\n";
                     break;
+                }
                 case 3:
                     cout<<"Search By Latitude and Longitude\n";
                     break;
@@ -833,6 +961,7 @@ void Finding()
 
 int main()
 {
+
     while(1)
     {
         int input;
