@@ -74,3 +74,22 @@ Parking: 1
 Maintenance: 123
 Furnishing: 33
 ----------------------------------------
+Type: Villa
+Property ID: VIL_VIN_433566_1760466557
+Owner: vinay
+Latitude: 13
+Longitude: 19
+Price: 433332
+Area: 234
+Address: himalayas
+Availability: 1
+Facing: north
+Landmark: jammu
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 345
+Garage: 1
+Furnishing: furnished
+----------------------------------------

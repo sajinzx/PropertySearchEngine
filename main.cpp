@@ -7,6 +7,9 @@
 #include "Villa.h"
 #include "PropertySearchTrie.h"
 #include "TrieLoader.h"
+#include "QuadTree.h"
+#include "loadQuadTree.h"
+#include <cmath>
 using namespace std;
 
 void saveToFile(const string& type, const string& details) {
@@ -15,6 +18,48 @@ void saveToFile(const string& type, const string& details) {
     file << details << endl;
     file << "----------------------------------------" << endl;
     file.close();
+}
+
+double distanceInKm(double lat1, double lon1, double lat2, double lon2) {
+    const double R = 6371.0; // Earth's radius in km
+    double dLat = (lat2 - lat1) * M_PI / 180.0;
+    double dLon = (lon2 - lon1) * M_PI / 180.0;
+    double a = sin(dLat/2) * sin(dLat/2) +
+               cos(lat1 * M_PI / 180.0) * cos(lat2 * M_PI / 180.0) *
+               sin(dLon/2) * sin(dLon/2);
+    double c = 2 * atan2(sqrt(a), sqrt(1-a));
+    return R * c;
+}
+
+void searchByLocation(QuadTree &qt, const string &prefix)
+{
+    double lat, lon, range;
+    cout << "Enter Latitude: ";
+    cin >> lat;
+    cout << "Enter Longitude: ";
+    cin >> lon;
+    cout << "Enter Search Radius (in degrees, e.g. 5): ";
+    cin >> range;
+
+    Boundary searchArea(lon, lat, range, range);
+    vector<PropertyPoint> found;
+    qt.query(searchArea, found);
+
+    bool anyFound = false;
+    cout << "\nProperties found near given location:\n";
+    for (const auto &p : found)
+    {
+        if (p.propertyID.rfind(prefix, 0) == 0)
+        {
+            double dist = distanceInKm(lat, lon, p.latitude, p.longitude);
+            cout << "- Property ID: " << p.propertyID
+                 << " | (" << p.latitude << ", " << p.longitude << ")"
+                 << " | Distance: " << dist << " km\n";
+            anyFound = true;
+        }
+    }
+    if (!anyFound)
+        cout << "No " << prefix.substr(0, 3) << " properties found in this area.\n";
 }
 
 void Listing() {
@@ -710,6 +755,11 @@ void Finding()
     unordered_map<int, string> idToPropID;
     int nextIndexId = 1;
     loadTriesFromFile("properties.txt", ownerTrie, landmarkTrie, idToPropID, nextIndexId);
+
+    Boundary indiaBoundary(0, 0, 100, 100); // example boundary
+    QuadTree qt(indiaBoundary);
+
+    loadQuadTreeFromFile("properties.txt", qt);
     int choice;
     cout<<"You Chose Finding Property\n";
     cout<<"What are you looking for\n";
@@ -779,8 +829,11 @@ void Finding()
                     break;
                 }
                 case 3:
-                    cout<<"Search By Latitude and Longitude\n";
+                {
+                    cout << "Search By Latitude and Longitude\n";
+                    searchByLocation(qt, "APA_");
                     break;
+                }
                 case 4:
                     cout<<"Search By Price\n";
                     break;
@@ -852,8 +905,11 @@ void Finding()
                     break;
                 }
                 case 3:
-                    cout<<"Search By Latitude and Longitude\n";
+                {   
+                    cout << "Search By Latitude and Longitude\n";
+                    searchByLocation(qt, "VIL_");
                     break;
+                }
                 case 4:
                     cout<<"Search By Price\n";
                     break;
@@ -928,8 +984,11 @@ void Finding()
                     break;
                 }
                 case 3:
-                    cout<<"Search By Latitude and Longitude\n";
+                {
+                    cout << "Search By Latitude and Longitude\n";
+                    searchByLocation(qt, "LAN_");
                     break;
+                }
                 case 4:
                     cout<<"Search By Price\n";
                     break;
