@@ -96,10 +96,9 @@ void Heap::loadFromFile(const string& filename, const string& type) {
     string propertyID;
     double price = -1;
 
-    cout << "\nLoading " << type << " properties from file...\n";
+    //cout << "\nLoading " << type << " properties from file...\n";
 
     while (getline(file, line)) {
-        // Trim leading/trailing spaces
         line.erase(0, line.find_first_not_of(" \t"));
         line.erase(line.find_last_not_of(" \t") + 1);
 
@@ -121,23 +120,21 @@ void Heap::loadFromFile(const string& filename, const string& type) {
             }
         } 
         else if (line.find("----------------------------------------") != string::npos) {
-            // Reached end of one property block
             if (currentType == type && !propertyID.empty() && price >= 0) {
                 insert(price, propertyID);
             }
 
-            // Reset for next property
+          
             currentType.clear();
             propertyID.clear();
             price = -1;
         }
     }
 
-    // Handle last block if file doesn’t end with a line of dashes
-    if (currentType == type && !propertyID.empty() && price >= 0) {
+        if (currentType == type && !propertyID.empty() && price >= 0) {
         insert(price, propertyID);
     }
 
     file.close();
-    cout << "✅ Successfully loaded " << type << " properties into heap.\n";
+    //cout << "Successfully loaded " << type << " properties into heap.\n";
 }

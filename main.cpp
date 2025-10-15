@@ -784,8 +784,8 @@ void Finding()
             cout<<"2.Choose By Landmark\n";
             cout<<"3.Choose By Latitude and Longitude\n";
             cout<<"4.Choose By Price\n";
-            cout<<"5.Choose By Bedrooms\n";
-            cout<<"6.Exit\n";
+            //cout<<"5.Choose By Bedrooms\n";
+            cout<<"5.Exit\n";
             cin>>inputapt;
             switch(inputapt)
             {
@@ -851,10 +851,10 @@ void Finding()
                     apartmentHeap.showPropertiesBelow(maxPrice);
                     break;
                 }
+                // case 6:
+                //     cout<<"Search By Bedrooms\n";
+                //     break;
                 case 5:
-                    cout<<"Search By Bedrooms\n";
-                    break;
-                case 6:
                     cout<<"Exiting Search\n";
                     return;
 
@@ -867,8 +867,8 @@ void Finding()
             cout<<"2.Choose By Landmark\n";
             cout<<"3.Choose By Latitude and Longitude\n";
             cout<<"4.Choose By Price\n";
-            cout<<"5.Choose By Bedrooms\n";
-            cout<<"6.Exit\n";
+            //cout<<"5.Choose By Bedrooms\n";
+            cout<<"5.Exit\n";
             cin>>inputvil;
             switch(inputvil)
             {
@@ -934,10 +934,10 @@ void Finding()
                     villaHeap.showPropertiesBelow(maxPrice);
                     break;
                 }
+                // case 5:
+                //     cout<<"Search By Bedrooms\n";
+                //     break;
                 case 5:
-                    cout<<"Search By Bedrooms\n";
-                    break;
-                case 6:
                     cout<<"Exiting Search\n";
                     return;
 
@@ -950,10 +950,8 @@ void Finding()
             cout<<"2.Choose By Landmark\n";
             cout<<"3.Choose By Latitude and Longitude\n";
             cout<<"4.Choose By Price\n";
-            cout<<"5.Choose By DTCP Approval\n";
-            cout<<"6.Choose By Electricity access\n";
-            cout<<"7.Choose By Water Status\n";
-            cout<<"8.Exit\n";
+            
+            cout<<"5.Exit\n";
             cin>>inputland;
             switch(inputland)
             {
@@ -1020,16 +1018,8 @@ void Finding()
                     landHeap.showPropertiesBelow(maxPrice);
                     break;
                 }
+               
                 case 5:
-                    cout<<"Search By DTCP\n";
-                    break;
-                case 6:
-                    cout<<"Search By Electricity access\n";
-                    break;
-                case 7:
-                    cout<<"Search By Water access\n";
-                    break;
-                case 8:
                     cout<<"Exiting Search\n";
                     return;
 

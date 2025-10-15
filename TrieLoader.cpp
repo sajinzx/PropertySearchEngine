@@ -76,5 +76,5 @@ void loadTriesFromFile(const string &filename,PropertySearchTrie &ownerTrie,Prop
     }
 
     file.close();
-    cout << "Data loaded successfully into tries.\n";
+    //cout << "Data loaded successfully into tries.\n";
 }

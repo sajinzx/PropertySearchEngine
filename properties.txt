@@ -93,4 +93,4413 @@ Plot Area: 345
 Garage: 1
 Furnishing: furnished
 ----------------------------------------
+Understood. Here is the entire dataset with all spaces and commas removed from the `Address` and `Landmark` fields, as requested.
 
+Type: Apartment
+Property ID: APA_RAJ_5823_1760034587
+Owner: rajesh
+Latitude: 13
+Longitude: 80
+Price: 7500000
+Area: 1200
+Address: 12AnnaNagarChennai
+Availability: 1
+Facing: north
+Landmark: NearAnnaNagarTower
+Ownership: own
+Floors: 3/10
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2500
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_PRI_8912_1760034612
+Owner: priya
+Latitude: 12
+Longitude: 77
+Price: 5000000
+Area: 2400
+Address: 45KoramangalaBangalore
+Availability: 1
+Facing: east
+Landmark: NearForumMall
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_VIK_4578_1760034635
+Owner: vikram
+Latitude: 18
+Longitude: 73
+Price: 9000000
+Area: 1500
+Address: 78KoregaonParkPune
+Availability: 1
+Facing: west
+Landmark: OshoAshram
+Ownership: own
+Floors: 5/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3500
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ANI_9823_1760034658
+Owner: anitha
+Latitude: 28
+Longitude: 77
+Price: 12000000
+Area: 3000
+Address: 23DLFPhase1Gurgaon
+Availability: 1
+Facing: south
+Landmark: NearCyberHub
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SUN_6734_1760034681
+Owner: sunil
+Latitude: 19
+Longitude: 72
+Price: 15000000
+Area: 1800
+Address: 56BandraWestMumbai
+Availability: 1
+Facing: north-east
+Landmark: NearLinkingRoad
+Ownership: own
+Floors: 8/15
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 5000
+Furnishing: fully-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_DEE_1298_1760034704
+Owner: deepa
+Latitude: 9
+Longitude: 76
+Price: 3000000
+Area: 4000
+Address: 89PanampillyNagarKochi
+Availability: 1
+Facing: north-west
+Landmark: NearManoramaJunction
+Ownership: own
+Land Type: residential
+Compound Wall: 0
+Near Main Road: 1
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ARU_7856_1760034727
+Owner: arun
+Latitude: 22
+Longitude: 88
+Price: 6000000
+Area: 1100
+Address: 34SaltLakeKolkata
+Availability: 1
+Facing: south-east
+Landmark: NearCityCentre
+Ownership: own
+Floors: 2/8
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2000
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_MEE_3421_1760034750
+Owner: meena
+Latitude: 17
+Longitude: 78
+Price: 8000000
+Area: 2000
+Address: 67JubileeHillsHyderabad
+Availability: 1
+Facing: south-west
+Landmark: NearKBRPark
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SAN_9012_1760034773
+Owner: sanjay
+Latitude: 26
+Longitude: 75
+Price: 4500000
+Area: 900
+Address: 11MalviyaNagarJaipur
+Availability: 1
+Facing: east
+Landmark: NearWorldTradePark
+Ownership: own
+Floors: 4/7
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 1500
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_GEE_5678_1760034796
+Owner: geetha
+Latitude: 10
+Longitude: 78
+Price: 2500000
+Area: 5000
+Address: 90KKNagarMadurai
+Availability: 1
+Facing: west
+Landmark: NearMattuthavaniBusStand
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 0
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_MAN_2345_1760034819
+Owner: manoj
+Latitude: 15
+Longitude: 74
+Price: 5500000
+Area: 1000
+Address: 21PanajiGoa
+Availability: 1
+Facing: north
+Landmark: NearMiramarBeach
+Ownership: own
+Floors: 1/5
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 1800
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_KAV_8765_1760034842
+Owner: kavitha
+Latitude: 11
+Longitude: 76
+Price: 4000000
+Area: 3500
+Address: 54OotyTamilNadu
+Availability: 1
+Facing: south
+Landmark: NearBotanicalGarden
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_PRA_4321_1760034865
+Owner: pradeep
+Latitude: 16
+Longitude: 80
+Price: 6500000
+Area: 1300
+Address: 87BenzCircleVijayawada
+Availability: 1
+Facing: east
+Landmark: NearPVPSquare
+Ownership: own
+Floors: 6/11
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3000
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_UMA_9876_1760034888
+Owner: uma
+Latitude: 14
+Longitude: 79
+Price: 2000000
+Area: 6000
+Address: 19TirupatiAndhraPradesh
+Availability: 1
+Facing: west
+Landmark: NearTirumalaHills
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAM_1234_1760034911
+Owner: ramesh
+Latitude: 17
+Longitude: 81
+Price: 7000000
+Area: 1400
+Address: 42RajahmundryAndhraPradesh
+Availability: 1
+Facing: north
+Landmark: NearGodavariBridge
+Ownership: own
+Floors: 7/9
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 2800
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_LAK_5432_1760034934
+Owner: lakshmi
+Latitude: 13
+Longitude: 79
+Price: 3500000
+Area: 2500
+Address: 75VelloreTamilNadu
+Availability: 1
+Facing: south
+Landmark: NearVITUniversity
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SIV_8790_1760034957
+Owner: siva
+Latitude: 25
+Longitude: 82
+Price: 8000000
+Area: 1600
+Address: 98VaranasiUttarPradesh
+Availability: 1
+Facing: east
+Landmark: NearGangesRiver
+Ownership: own
+Floors: 9/14
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4000
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_VAN_2109_1760034980
+Owner: vani
+Latitude: 23
+Longitude: 72
+Price: 9000000
+Area: 1800
+Address: 31AhmedabadGujarat
+Availability: 1
+Facing: west
+Landmark: NearSabarmatiAshram
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KRI_6543_1760035003
+Owner: krishna
+Latitude: 27
+Longitude: 78
+Price: 9500000
+Area: 1700
+Address: 64AgraUttarPradesh
+Availability: 1
+Facing: north
+Landmark: NearTajMahal
+Ownership: own
+Floors: 10/16
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4500
+Furnishing: fully-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_BHU_8765_1760035026
+Owner: bhuvan
+Latitude: 30
+Longitude: 76
+Price: 10000000
+Area: 2200
+Address: 97Chandigarh
+Availability: 1
+Facing: south
+Landmark: NearRockGarden
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_CHA_3456_1760035049
+Owner: chandra
+Latitude: 29
+Longitude: 79
+Price: 8500000
+Area: 1550
+Address: 13NainitalUttarakhand
+Availability: 1
+Facing: east
+Landmark: NearNainiLake
+Ownership: own
+Floors: 3/6
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2200
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_DIV_9870_1760035072
+Owner: divya
+Latitude: 31
+Longitude: 77
+Price: 11000000
+Area: 2800
+Address: 46ShimlaHimachalPradesh
+Availability: 1
+Facing: west
+Landmark: NearTheRidge
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_GOP_6789_1760035095
+Owner: gopal
+Latitude: 24
+Longitude: 74
+Price: 7800000
+Area: 1350
+Address: 79UdaipurRajasthan
+Availability: 1
+Facing: north
+Landmark: NearLakePichola
+Ownership: own
+Floors: 5/9
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2600
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_HEM_1234_1760035118
+Owner: hema
+Latitude: 26
+Longitude: 73
+Price: 13000000
+Area: 3200
+Address: 15JodhpurRajasthan
+Availability: 1
+Facing: south
+Landmark: NearMehrangarhFort
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_IND_5678_1760035141
+Owner: indra
+Latitude: 12
+Longitude: 76
+Price: 9200000
+Area: 1650
+Address: 48MysoreKarnataka
+Availability: 1
+Facing: east
+Landmark: NearMysorePalace
+Ownership: own
+Floors: 8/13
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3800
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_JAY_9012_1760035164
+Owner: jaya
+Latitude: 13
+Longitude: 77
+Price: 14000000
+Area: 3500
+Address: 81WhitefieldBangalore
+Availability: 1
+Facing: west
+Landmark: NearITPL
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KAM_3456_1760035187
+Owner: kamal
+Latitude: 18
+Longitude: 83
+Price: 8800000
+Area: 1450
+Address: 17VisakhapatnamAndhraPradesh
+Availability: 1
+Facing: north
+Landmark: NearRKBeach
+Ownership: own
+Floors: 6/10
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3200
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_LAL_7890_1760035210
+Owner: lalitha
+Latitude: 16
+Longitude: 82
+Price: 4200000
+Area: 4500
+Address: 50KakinadaAndhraPradesh
+Availability: 1
+Facing: south
+Landmark: NearUppadaBeach
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_MAD_2345_1760035233
+Owner: madhu
+Latitude: 11
+Longitude: 79
+Price: 9800000
+Area: 1750
+Address: 83Pondicherry
+Availability: 1
+Facing: east
+Landmark: NearPromenadeBeach
+Ownership: own
+Floors: 4/7
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4200
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_MOH_6789_1760035256
+Owner: mohan
+Latitude: 21
+Longitude: 79
+Price: 16000000
+Area: 4000
+Address: 26NagpurMaharashtra
+Availability: 1
+Facing: west
+Landmark: NearDeekshabhoomi
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_NAL_1234_1760035279
+Owner: nalini
+Latitude: 20
+Longitude: 77
+Price: 8200000
+Area: 1250
+Address: 59AurangabadMaharashtra
+Availability: 1
+Facing: north
+Landmark: NearBibiKaMaqbara
+Ownership: own
+Floors: 2/6
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2300
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_OMP_5678_1760035302
+Owner: omprakash
+Latitude: 25
+Longitude: 77
+Price: 18000000
+Area: 5000
+Address: 92GwaliorMadhyaPradesh
+Availability: 1
+Facing: south
+Landmark: NearGwaliorFort
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_PAR_9012_1760035325
+Owner: parvathi
+Latitude: 23
+Longitude: 77
+Price: 7500000
+Area: 1150
+Address: 28BhopalMadhyaPradesh
+Availability: 1
+Facing: east
+Landmark: NearVanViharNationalPark
+Ownership: own
+Floors: 3/8
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2000
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_QUR_3456_1760035348
+Owner: qureshi
+Latitude: 22
+Longitude: 70
+Price: 20000000
+Area: 6000
+Address: 61RajkotGujarat
+Availability: 1
+Facing: west
+Landmark: NearWatsonMuseum
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAD_7890_1760035371
+Owner: radha
+Latitude: 22
+Longitude: 72
+Price: 9000000
+Area: 1400
+Address: 94VadodaraGujarat
+Availability: 1
+Facing: north
+Landmark: NearLaxmiVilasPalace
+Ownership: own
+Floors: 5/11
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3500
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SAR_2345_1760035394
+Owner: saritha
+Latitude: 21
+Longitude: 72
+Price: 22000000
+Area: 7000
+Address: 37SuratGujarat
+Availability: 1
+Facing: south
+Landmark: NearDumasBeach
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_THA_6789_1760035417
+Owner: tharun
+Latitude: 19
+Longitude: 74
+Price: 8000000
+Area: 1200
+Address: 70NashikMaharashtra
+Availability: 1
+Facing: east
+Landmark: NearSulaVineyards
+Ownership: own
+Floors: 4/9
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2400
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_USH_1234_1760035440
+Owner: usha
+Latitude: 20
+Longitude: 85
+Price: 25000000
+Area: 8000
+Address: 16BhubaneswarOdisha
+Availability: 1
+Facing: west
+Landmark: NearLingarajTemple
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_VEN_5678_1760035463
+Owner: venkat
+Latitude: 19
+Longitude: 84
+Price: 7000000
+Area: 1100
+Address: 49PuriOdisha
+Availability: 1
+Facing: north
+Landmark: NearJagannathTemple
+Ownership: own
+Floors: 2/5
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 1800
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_WAF_9012_1760035486
+Owner: wafa
+Latitude: 21
+Longitude: 86
+Price: 28000000
+Area: 9000
+Address: 82CuttackOdisha
+Availability: 1
+Facing: south
+Landmark: NearBarabatiFort
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_XAV_3456_1760035509
+Owner: xavier
+Latitude: 22
+Longitude: 87
+Price: 9500000
+Area: 1500
+Address: 25RourkelaOdisha
+Availability: 1
+Facing: east
+Landmark: NearIndiraGandhiPark
+Ownership: own
+Floors: 6/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3700
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_YAS_7890_1760035532
+Owner: yasmin
+Latitude: 20
+Longitude: 75
+Price: 30000000
+Area: 10000
+Address: 58JalgaonMaharashtra
+Availability: 1
+Facing: west
+Landmark: NearGandhiResearchFoundation
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ZAI_2345_1760035555
+Owner: zainab
+Latitude: 18
+Longitude: 76
+Price: 8800000
+Area: 1300
+Address: 91SolapurMaharashtra
+Availability: 1
+Facing: north
+Landmark: NearSiddheshwarTemple
+Ownership: own
+Floors: 3/7
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2500
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_AMA_6789_1760035578
+Owner: amara
+Latitude: 17
+Longitude: 74
+Price: 32000000
+Area: 11000
+Address: 34SataraMaharashtra
+Availability: 1
+Facing: south
+Landmark: NearKaasPlateau
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_BAL_1234_1760035601
+Owner: balu
+Latitude: 16
+Longitude: 74
+Price: 7800000
+Area: 1150
+Address: 67KolhapurMaharashtra
+Availability: 1
+Facing: east
+Landmark: NearMahalakshmiTemple
+Ownership: own
+Floors: 4/8
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2100
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_CHE_5678_1760035624
+Owner: chetan
+Latitude: 15
+Longitude: 75
+Price: 35000000
+Area: 12000
+Address: 10HubliKarnataka
+Availability: 1
+Facing: west
+Landmark: NearNrupatungaBetta
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_DHU_9012_1760035647
+Owner: dhruv
+Latitude: 14
+Longitude: 75
+Price: 9200000
+Area: 1450
+Address: 43DharwadKarnataka
+Availability: 1
+Facing: north
+Landmark: NearKarnatakUniversity
+Ownership: own
+Floors: 5/10
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3300
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ESH_3456_1760035670
+Owner: esha
+Latitude: 13
+Longitude: 75
+Price: 38000000
+Area: 13000
+Address: 76MangaloreKarnataka
+Availability: 1
+Facing: south
+Landmark: NearPanamburBeach
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_FAR_7890_1760035693
+Owner: farhan
+Latitude: 12
+Longitude: 75
+Price: 8500000
+Area: 1250
+Address: 19UdupiKarnataka
+Availability: 1
+Facing: east
+Landmark: NearSriKrishnaTemple
+Ownership: own
+Floors: 2/6
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2200
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_GIR_2345_1760035716
+Owner: girish
+Latitude: 15
+Longitude: 76
+Price: 40000000
+Area: 14000
+Address: 52BellaryKarnataka
+Availability: 1
+Facing: west
+Landmark: NearBellaryFort
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 0
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_HAR_6789_1760035739
+Owner: harish
+Latitude: 15
+Longitude: 77
+Price: 9800000
+Area: 1600
+Address: 85DavangereKarnataka
+Availability: 1
+Facing: north
+Landmark: NearBapujiInstitute
+Ownership: own
+Floors: 6/11
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4000
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ISH_1234_1760035762
+Owner: ishan
+Latitude: 14
+Longitude: 77
+Price: 42000000
+Area: 15000
+Address: 28ChitradurgaKarnataka
+Availability: 1
+Facing: south
+Landmark: NearChitradurgaFort
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_JAG_5678_1760035785
+Owner: jagdish
+Latitude: 13
+Longitude: 77
+Price: 10000000
+Area: 1700
+Address: 61TumkurKarnataka
+Availability: 1
+Facing: east
+Landmark: NearDevarayanadurga
+Ownership: own
+Floors: 7/13
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4500
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_KIR_9012_1760035808
+Owner: kiran
+Latitude: 12
+Longitude: 77
+Price: 45000000
+Area: 16000
+Address: 94KolarKarnataka
+Availability: 1
+Facing: west
+Landmark: NearKolarGoldFields
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_LAV_3456_1760035831
+Owner: lavanya
+Latitude: 17
+Longitude: 77
+Price: 9500000
+Area: 1550
+Address: 37BidarKarnataka
+Availability: 1
+Facing: north
+Landmark: NearBidarFort
+Ownership: own
+Floors: 4/9
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3400
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_MAY_7890_1760035854
+Owner: mayank
+Latitude: 16
+Longitude: 77
+Price: 48000000
+Area: 17000
+Address: 70GulbargaKarnataka
+Availability: 1
+Facing: south
+Landmark: NearGulbargaFort
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_NIK_2345_1760035877
+Owner: nikhil
+Latitude: 16
+Longitude: 76
+Price: 8200000
+Area: 1200
+Address: 13RaichurKarnataka
+Availability: 1
+Facing: east
+Landmark: NearRaichurFort
+Ownership: own
+Floors: 3/7
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2300
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_POO_6789_1760035900
+Owner: pooja
+Latitude: 15
+Longitude: 76
+Price: 50000000
+Area: 18000
+Address: 46HospetKarnataka
+Availability: 1
+Facing: west
+Landmark: NearHampi
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAH_1234_1760035923
+Owner: rahul
+Latitude: 14
+Longitude: 76
+Price: 11000000
+Area: 1800
+Address: 79ShimogaKarnataka
+Availability: 1
+Facing: north
+Landmark: NearJogFalls
+Ownership: own
+Floors: 8/14
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4800
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_RIT_5678_1760035946
+Owner: ritu
+Latitude: 13
+Longitude: 76
+Price: 52000000
+Area: 19000
+Address: 22HassanKarnataka
+Availability: 1
+Facing: south
+Landmark: NearBelurandHalebidu
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SAH_9012_1760035969
+Owner: sahil
+Latitude: 12
+Longitude: 76
+Price: 9000000
+Area: 1400
+Address: 55MandyaKarnataka
+Availability: 1
+Facing: east
+Landmark: NearBrindavanGardens
+Ownership: own
+Floors: 5/10
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 3000
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_TAN_3456_1760035992
+Owner: tanvi
+Latitude: 11
+Longitude: 76
+Price: 55000000
+Area: 20000
+Address: 88ChamarajanagarKarnataka
+Availability: 1
+Facing: west
+Landmark: NearBandipurNationalPark
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_UMA_7890_1760036015
+Owner: umar
+Latitude: 10
+Longitude: 77
+Price: 8800000
+Area: 1350
+Address: 31PollachiTamilNadu
+Availability: 1
+Facing: north
+Landmark: NearAliyarDam
+Ownership: own
+Floors: 2/5
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2000
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_VAR_2345_1760036038
+Owner: varun
+Latitude: 11
+Longitude: 77
+Price: 58000000
+Area: 21000
+Address: 64TiruppurTamilNadu
+Availability: 1
+Facing: south
+Landmark: NearTiruppurKumaranMemorial
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_VIN_6789_1760036061
+Owner: vinay
+Latitude: 11
+Longitude: 78
+Price: 9500000
+Area: 1500
+Address: 97SalemTamilNadu
+Availability: 1
+Facing: east
+Landmark: NearYercaudHills
+Ownership: own
+Floors: 6/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3600
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_YUV_1234_1760036084
+Owner: yuvraj
+Latitude: 11
+Longitude: 78
+Price: 60000000
+Area: 22000
+Address: 40ErodeTamilNadu
+Availability: 1
+Facing: west
+Landmark: NearBhavaniSangameshwararTemple
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ZAR_5678_1760036107
+Owner: zara
+Latitude: 10
+Longitude: 78
+Price: 8000000
+Area: 1200
+Address: 73KarurTamilNadu
+Availability: 1
+Facing: north
+Landmark: NearPasupatheeswararTemple
+Ownership: own
+Floors: 3/8
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2500
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ADI_9012_1760036130
+Owner: aditya
+Latitude: 10
+Longitude: 79
+Price: 62000000
+Area: 23000
+Address: 16ThanjavurTamilNadu
+Availability: 1
+Facing: south
+Landmark: NearBrihadeeswararTemple
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_BHA_3456_1760036153
+Owner: bharath
+Latitude: 10
+Longitude: 79
+Price: 10500000
+Area: 1750
+Address: 49KumbakonamTamilNadu
+Availability: 1
+Facing: east
+Landmark: NearMahamahamTank
+Ownership: own
+Floors: 4/7
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4200
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_DEB_7890_1760036176
+Owner: deb
+Latitude: 9
+Longitude: 79
+Price: 65000000
+Area: 24000
+Address: 82RameswaramTamilNadu
+Availability: 1
+Facing: west
+Landmark: NearRamanathaswamyTemple
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_GAN_2345_1760036199
+Owner: ganesh
+Latitude: 8
+Longitude: 77
+Price: 8500000
+Area: 1300
+Address: 25KanyakumariTamilNadu
+Availability: 1
+Facing: north
+Landmark: NearVivekanandaRockMemorial
+Ownership: own
+Floors: 2/6
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2000
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_HRI_6789_1760036222
+Owner: hrithik
+Latitude: 8
+Longitude: 78
+Price: 68000000
+Area: 25000
+Address: 58TirunelveliTamilNadu
+Availability: 1
+Facing: south
+Landmark: NearNellaiapparTemple
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ISH_1234_1760036245
+Owner: isha
+Latitude: 9
+Longitude: 77
+Price: 9200000
+Area: 1450
+Address: 91ThoothukudiTamilNadu
+Availability: 1
+Facing: east
+Landmark: NearOurLadyofSnowsBasilica
+Ownership: own
+Floors: 5/9
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3300
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_JEE_5678_1760036268
+Owner: jeevan
+Latitude: 10
+Longitude: 77
+Price: 70000000
+Area: 26000
+Address: 34DindigulTamilNadu
+Availability: 1
+Facing: west
+Landmark: NearDindigulFort
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KAR_9012_1760036291
+Owner: karthik
+Latitude: 10
+Longitude: 76
+Price: 11500000
+Area: 1850
+Address: 67PalakkadKerala
+Availability: 1
+Facing: north
+Landmark: NearPalakkadFort
+Ownership: own
+Floors: 7/13
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4600
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_MOH_3456_1760036314
+Owner: mohini
+Latitude: 10
+Longitude: 76
+Price: 72000000
+Area: 27000
+Address: 10ThrissurKerala
+Availability: 1
+Facing: south
+Landmark: NearVadakkunnathanTemple
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_NAV_7890_1760036337
+Owner: navya
+Latitude: 9
+Longitude: 76
+Price: 9800000
+Area: 1600
+Address: 43AlappuzhaKerala
+Availability: 1
+Facing: east
+Landmark: NearAlappuzhaBeach
+Ownership: own
+Floors: 4/8
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3800
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_PRA_2345_1760036360
+Owner: prasad
+Latitude: 9
+Longitude: 76
+Price: 75000000
+Area: 28000
+Address: 76KottayamKerala
+Availability: 1
+Facing: west
+Landmark: NearVembanadLake
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAV_6789_1760036383
+Owner: ravi
+Latitude: 9
+Longitude: 77
+Price: 8800000
+Area: 1400
+Address: 19IdukkiKerala
+Availability: 1
+Facing: north
+Landmark: NearIdukkiDam
+Ownership: own
+Floors: 3/6
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2200
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SHA_1234_1760036406
+Owner: shanti
+Latitude: 11
+Longitude: 76
+Price: 78000000
+Area: 29000
+Address: 52WayanadKerala
+Availability: 1
+Facing: south
+Landmark: NearEdakkalCaves
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SUD_5678_1760036429
+Owner: sudha
+Latitude: 11
+Longitude: 75
+Price: 12000000
+Area: 1900
+Address: 85KozhikodeKerala
+Availability: 1
+Facing: east
+Landmark: NearKozhikodeBeach
+Ownership: own
+Floors: 8/15
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 5000
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_VEN_9012_1760036452
+Owner: venu
+Latitude: 12
+Longitude: 75
+Price: 80000000
+Area: 30000
+Address: 28KannurKerala
+Availability: 1
+Facing: west
+Landmark: NearSt.AngeloFort
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ANI_3456_1760036475
+Owner: anil
+Latitude: 12
+Longitude: 75
+Price: 9500000
+Area: 1500
+Address: 61KasaragodKerala
+Availability: 1
+Facing: north
+Landmark: NearBekalFort
+Ownership: own
+Floors: 5/10
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3500
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_BHA_7890_1760036498
+Owner: bhavana
+Latitude: 8
+Longitude: 77
+Price: 82000000
+Area: 31000
+Address: 94ThiruvananthapuramKerala
+Availability: 1
+Facing: south
+Landmark: NearNapierMuseum
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_DEE_2345_1760036521
+Owner: deepak
+Latitude: 9
+Longitude: 76
+Price: 11000000
+Area: 1800
+Address: 37KollamKerala
+Availability: 1
+Facing: east
+Landmark: NearAshtamudiLake
+Ownership: own
+Floors: 7/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4500
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_GAY_6789_1760036544
+Owner: gayathri
+Latitude: 9
+Longitude: 76
+Price: 85000000
+Area: 32000
+Address: 70PathanamthittaKerala
+Availability: 1
+Facing: west
+Landmark: NearSabarimalaTemple
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_HAR_1234_1760036567
+Owner: hari
+Latitude: 34
+Longitude: 77
+Price: 13000000
+Area: 2000
+Address: 13LehLadakh
+Availability: 1
+Facing: north
+Landmark: NearLehPalace
+Ownership: own
+Floors: 2/4
+Bedrooms: 4
+Lift: 0
+Parking: 2
+Maintenance: 3000
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_JAI_5678_1760036590
+Owner: jairam
+Latitude: 34
+Longitude: 77
+Price: 88000000
+Area: 33000
+Address: 46KargilLadakh
+Availability: 1
+Facing: south
+Landmark: NearKargilWarMemorial
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KUM_9012_1760036613
+Owner: kumar
+Latitude: 34
+Longitude: 74
+Price: 10000000
+Area: 1700
+Address: 79SrinagarJammuandKashmir
+Availability: 1
+Facing: east
+Landmark: NearDalLake
+Ownership: own
+Floors: 3/5
+Bedrooms: 3
+Lift: 0
+Parking: 1
+Maintenance: 2800
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_MAN_3456_1760036636
+Owner: manju
+Latitude: 33
+Longitude: 75
+Price: 90000000
+Area: 34000
+Address: 22JammuJammuandKashmir
+Availability: 1
+Facing: west
+Landmark: NearVaishnoDevi
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_NEH_7890_1760036659
+Owner: neha
+Latitude: 28
+Longitude: 77
+Price: 15000000
+Area: 1600
+Address: 55NewDelhi
+Availability: 1
+Facing: north
+Landmark: NearIndiaGate
+Ownership: own
+Floors: 9/16
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 5500
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_PRA_2345_1760036682
+Owner: prateek
+Latitude: 28
+Longitude: 77
+Price: 92000000
+Area: 35000
+Address: 88SouthDelhi
+Availability: 1
+Facing: south
+Landmark: NearQutubMinar
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAJ_6789_1760036705
+Owner: rajiv
+Latitude: 30
+Longitude: 78
+Price: 11000000
+Area: 1800
+Address: 31DehradunUttarakhand
+Availability: 1
+Facing: east
+Landmark: NearRobber'sCave
+Ownership: own
+Floors: 4/8
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3200
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SAN_1234_1760036728
+Owner: sandeep
+Latitude: 29
+Longitude: 78
+Price: 95000000
+Area: 36000
+Address: 64HaridwarUttarakhand
+Availability: 1
+Facing: west
+Landmark: NearHarKiPauri
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SNE_5678_1760036751
+Owner: sneha
+Latitude: 27
+Longitude: 80
+Price: 12500000
+Area: 1900
+Address: 97LucknowUttarPradesh
+Availability: 1
+Facing: north
+Landmark: NearBaraImambara
+Ownership: own
+Floors: 7/14
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4800
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SUM_9012_1760036774
+Owner: sumit
+Latitude: 26
+Longitude: 80
+Price: 98000000
+Area: 37000
+Address: 40KanpurUttarPradesh
+Availability: 1
+Facing: south
+Landmark: NearAllenForestZoo
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_TAR_3456_1760036797
+Owner: tarun
+Latitude: 25
+Longitude: 81
+Price: 9000000
+Area: 1400
+Address: 73PrayagrajUttarPradesh
+Availability: 1
+Facing: east
+Landmark: NearTriveniSangam
+Ownership: own
+Floors: 5/10
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2900
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_VIJ_7890_1760036820
+Owner: vijay
+Latitude: 26
+Longitude: 91
+Price: 100000000
+Area: 38000
+Address: 16GuwahatiAssam
+Availability: 1
+Facing: west
+Landmark: NearKamakhyaTemple
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_AAR_2345_1760036843
+Owner: aarthi
+Latitude: 26
+Longitude: 92
+Price: 8000000
+Area: 1250
+Address: 49ShillongMeghalaya
+Availability: 1
+Facing: north
+Landmark: NearElephantFalls
+Ownership: own
+Floors: 3/7
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2300
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_BIS_6789_1760036866
+Owner: bishan
+Latitude: 27
+Longitude: 88
+Price: 102000000
+Area: 39000
+Address: 82GangtokSikkim
+Availability: 1
+Facing: south
+Landmark: NearMGMarg
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_CHI_1234_1760036889
+Owner: chitra
+Latitude: 25
+Longitude: 93
+Price: 9500000
+Area: 1500
+Address: 25KohimaNagaland
+Availability: 1
+Facing: east
+Landmark: NearKohimaWarCemetery
+Ownership: own
+Floors: 4/8
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3400
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_DIP_5678_1760036912
+Owner: dipak
+Latitude: 23
+Longitude: 91
+Price: 105000000
+Area: 40000
+Address: 58AgartalaTripura
+Availability: 1
+Facing: west
+Landmark: NearUjjayantaPalace
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_EMA_9012_1760036935
+Owner: emmanuel
+Latitude: 24
+Longitude: 93
+Price: 8800000
+Area: 1350
+Address: 91ImphalManipur
+Availability: 1
+Facing: north
+Landmark: NearKanglaFort
+Ownership: own
+Floors: 2/6
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2100
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_FAT_3456_1760036958
+Owner: fatima
+Latitude: 23
+Longitude: 92
+Price: 108000000
+Area: 41000
+Address: 34AizawlMizoram
+Availability: 1
+Facing: south
+Landmark: NearSolomon'sTemple
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_GIR_7890_1760036981
+Owner: giri
+Latitude: 25
+Longitude: 94
+Price: 9200000
+Area: 1450
+Address: 67ItanagarArunachalPradesh
+Availability: 1
+Facing: east
+Landmark: NearGangaLake
+Ownership: own
+Floors: 3/5
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2500
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_HEM_2345_1760037004
+Owner: hemanth
+Latitude: 28
+Longitude: 96
+Price: 110000000
+Area: 42000
+Address: 10TawangArunachalPradesh
+Availability: 1
+Facing: west
+Landmark: NearTawangMonastery
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_IRA_6789_1760037027
+Owner: irfan
+Latitude: 26
+Longitude: 88
+Price: 10500000
+Area: 1700
+Address: 43DarjeelingWestBengal
+Availability: 1
+Facing: north
+Landmark: NearTigerHill
+Ownership: own
+Floors: 6/11
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4300
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_JOS_1234_1760037050
+Owner: joseph
+Latitude: 22
+Longitude: 86
+Price: 112000000
+Area: 43000
+Address: 76JamshedpurJharkhand
+Availability: 1
+Facing: south
+Landmark: NearJubileePark
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KAL_5678_1760037073
+Owner: kalpana
+Latitude: 23
+Longitude: 85
+Price: 8500000
+Area: 1300
+Address: 19RanchiJharkhand
+Availability: 1
+Facing: east
+Landmark: NearRockGarden
+Ownership: own
+Floors: 4/9
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2700
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_LOK_9012_1760037096
+Owner: lokesh
+Latitude: 23
+Longitude: 86
+Price: 115000000
+Area: 44000
+Address: 52DhanbadJharkhand
+Availability: 1
+Facing: west
+Landmark: NearMaithonDam
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_MOH_3456_1760037119
+Owner: mohit
+Latitude: 24
+Longitude: 87
+Price: 9800000
+Area: 1550
+Address: 85BokaroSteelCityJharkhand
+Availability: 1
+Facing: north
+Landmark: NearJawaharlalNehruBiologicalPark
+Ownership: own
+Floors: 5/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3900
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_NAG_7890_1760037142
+Owner: nagaraj
+Latitude: 22
+Longitude: 84
+Price: 118000000
+Area: 45000
+Address: 28BilaspurChhattisgarh
+Availability: 1
+Facing: south
+Landmark: NearAchanakmarWildlifeSanctuary
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_OMI_2345_1760037165
+Owner: omkar
+Latitude: 21
+Longitude: 81
+Price: 8000000
+Area: 1200
+Address: 61RaipurChhattisgarh
+Availability: 1
+Facing: east
+Landmark: NearNandanVanZoo&Safari
+Ownership: own
+Floors: 3/8
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2400
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_PRA_6789_1760037188
+Owner: pranav
+Latitude: 21
+Longitude: 82
+Price: 120000000
+Area: 46000
+Address: 94BhilaiChhattisgarh
+Availability: 1
+Facing: west
+Landmark: NearMaitriBaghZoo
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_QAI_1234_1760037211
+Owner: qais
+Latitude: 19
+Longitude: 80
+Price: 9000000
+Area: 1400
+Address: 37JagdalpurChhattisgarh
+Availability: 1
+Facing: north
+Landmark: NearChitrakoteFalls
+Ownership: own
+Floors: 4/7
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2600
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_RAJ_5678_1760037234
+Owner: raju
+Latitude: 23
+Longitude: 82
+Price: 122000000
+Area: 47000
+Address: 70AmbikapurChhattisgarh
+Availability: 1
+Facing: south
+Landmark: NearMainpat
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SID_9012_1760037257
+Owner: siddharth
+Latitude: 22
+Longitude: 82
+Price: 11000000
+Area: 1750
+Address: 13KorbaChhattisgarh
+Availability: 1
+Facing: east
+Landmark: NearHasdeoBangoDam
+Ownership: own
+Floors: 6/13
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4400
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_TEJ_3456_1760037280
+Owner: tejas
+Latitude: 25
+Longitude: 85
+Price: 125000000
+Area: 48000
+Address: 46PatnaBihar
+Availability: 1
+Facing: west
+Landmark: NearGolghar
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_UTS_7890_1760037303
+Owner: utsav
+Latitude: 24
+Longitude: 85
+Price: 8200000
+Area: 1250
+Address: 79GayaBihar
+Availability: 1
+Facing: north
+Landmark: NearMahabodhiTemple
+Ownership: own
+Floors: 3/7
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2500
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_VIV_2345_1760037326
+Owner: vivek
+Latitude: 25
+Longitude: 87
+Price: 128000000
+Area: 49000
+Address: 22BhagalpurBihar
+Availability: 1
+Facing: south
+Landmark: NearVikramshila
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_YOG_6789_1760037349
+Owner: yogesh
+Latitude: 25
+Longitude: 86
+Price: 9500000
+Area: 1500
+Address: 55MuzaffarpurBihar
+Availability: 1
+Facing: east
+Landmark: NearGaribSthanMandir
+Ownership: own
+Floors: 5/11
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3700
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ZUB_1234_1760037372
+Owner: zuber
+Latitude: 26
+Longitude: 84
+Price: 130000000
+Area: 50000
+Address: 88DarbhangaBihar
+Availability: 1
+Facing: west
+Landmark: NearDarbhangaFort
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_AJI_5678_1760037395
+Owner: ajith
+Latitude: 13
+Longitude: 80
+Price: 7800000
+Area: 1250
+Address: 15VelacheryChennai
+Availability: 1
+Facing: south
+Landmark: NearPhoenixMarketcity
+Ownership: own
+Floors: 4/11
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2600
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_BHU_9012_1760037418
+Owner: bhushan
+Latitude: 12
+Longitude: 77
+Price: 5200000
+Area: 2500
+Address: 48HSRLayoutBangalore
+Availability: 1
+Facing: west
+Landmark: NearBDAComplex
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_CHA_3456_1760037441
+Owner: charan
+Latitude: 18
+Longitude: 73
+Price: 9300000
+Area: 1550
+Address: 81HinjewadiPune
+Availability: 1
+Facing: north-west
+Landmark: NearRajivGandhiInfotechPark
+Ownership: own
+Floors: 6/13
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3600
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_DHA_7890_1760037464
+Owner: dhanush
+Latitude: 28
+Longitude: 77
+Price: 12500000
+Area: 3100
+Address: 26Noida
+Availability: 1
+Facing: south-east
+Landmark: NearDLFMallofIndia
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ESH_2345_1760037487
+Owner: eshwar
+Latitude: 19
+Longitude: 72
+Price: 15500000
+Area: 1850
+Address: 59AndheriEastMumbai
+Availability: 1
+Facing: north-east
+Landmark: NearChhatrapatiShivajiInternationalAirport
+Ownership: own
+Floors: 9/16
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 5200
+Furnishing: fully-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_FAH_6789_1760037510
+Owner: fahad
+Latitude: 9
+Longitude: 76
+Price: 3200000
+Area: 4100
+Address: 92KakkanadKochi
+Availability: 1
+Facing: north-west
+Landmark: NearInfopark
+Ownership: own
+Land Type: residential
+Compound Wall: 0
+Near Main Road: 1
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_GAU_1234_1760037533
+Owner: gautam
+Latitude: 22
+Longitude: 88
+Price: 6300000
+Area: 1150
+Address: 37NewTownKolkata
+Availability: 1
+Facing: south-west
+Landmark: NearAxisMall
+Ownership: own
+Floors: 3/9
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2100
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_HAR_5678_1760037556
+Owner: harsh
+Latitude: 17
+Longitude: 78
+Price: 8300000
+Area: 2100
+Address: 70GachibowliHyderabad
+Availability: 1
+Facing: east
+Landmark: NearFinancialDistrict
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_IMA_9012_1760037579
+Owner: iman
+Latitude: 26
+Longitude: 75
+Price: 4700000
+Area: 950
+Address: 14VaishaliNagarJaipur
+Availability: 1
+Facing: west
+Landmark: NearNationalHandloom
+Ownership: own
+Floors: 5/8
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 1600
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_JAG_3456_1760037602
+Owner: jagat
+Latitude: 10
+Longitude: 78
+Price: 2700000
+Area: 5100
+Address: 93AnnaNagarMadurai
+Availability: 1
+Facing: north
+Landmark: NearAravindEyeHospital
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 0
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_KAP_7890_1760037625
+Owner: kapil
+Latitude: 15
+Longitude: 74
+Price: 5700000
+Area: 1050
+Address: 24CalanguteGoa
+Availability: 1
+Facing: south
+Landmark: NearCalanguteBeach
+Ownership: own
+Floors: 2/5
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 1900
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_LAL_2345_1760037648
+Owner: lalit
+Latitude: 11
+Longitude: 76
+Price: 4200000
+Area: 3600
+Address: 57CoonoorTamilNadu
+Availability: 1
+Facing: east
+Landmark: NearSim'sPark
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_MAN_6789_1760037671
+Owner: manish
+Latitude: 16
+Longitude: 80
+Price: 6700000
+Area: 1350
+Address: 90Guntur
+Availability: 1
+Facing: west
+Landmark: NearBrodipet
+Ownership: own
+Floors: 7/12
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3100
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_NIT_1234_1760037694
+Owner: nitin
+Latitude: 14
+Longitude: 79
+Price: 2200000
+Area: 6100
+Address: 22NelloreAndhraPradesh
+Availability: 1
+Facing: north
+Landmark: NearPennaRiver
+Ownership: own
+Land Type: agricultural
+Compound Wall: 0
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_OMA_5678_1760037717
+Owner: omar
+Latitude: 17
+Longitude: 81
+Price: 7200000
+Area: 1450
+Address: 45WarangalTelangana
+Availability: 1
+Facing: south
+Landmark: NearThousandPillarTemple
+Ownership: own
+Floors: 8/10
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 2900
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_PAV_9012_1760037740
+Owner: pavan
+Latitude: 13
+Longitude: 79
+Price: 3700000
+Area: 2600
+Address: 78KanchipuramTamilNadu
+Availability: 1
+Facing: east
+Landmark: NearKamakshiAmmanTemple
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_RAG_3456_1760037763
+Owner: raghu
+Latitude: 25
+Longitude: 82
+Price: 8300000
+Area: 1650
+Address: 101MirzapurUttarPradesh
+Availability: 1
+Facing: west
+Landmark: NearVindhyachal
+Ownership: own
+Floors: 10/15
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4100
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_ROH_7890_1760037786
+Owner: rohan
+Latitude: 23
+Longitude: 72
+Price: 9300000
+Area: 1900
+Address: 34GandhinagarGujarat
+Availability: 1
+Facing: north
+Landmark: NearAkshardhamTemple
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_SAI_2345_1760037809
+Owner: sai
+Latitude: 27
+Longitude: 78
+Price: 9800000
+Area: 1750
+Address: 67MathuraUttarPradesh
+Availability: 1
+Facing: south
+Landmark: NearKrishnaJanmabhoomi
+Ownership: own
+Floors: 11/17
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 4600
+Furnishing: fully-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_SHA_6789_1760037832
+Owner: sharma
+Latitude: 30
+Longitude: 76
+Price: 10500000
+Area: 2300
+Address: 100MohaliPunjab
+Availability: 1
+Facing: east
+Landmark: NearPCAStadium
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_TRI_1234_1760037855
+Owner: trisha
+Latitude: 29
+Longitude: 79
+Price: 8700000
+Area: 1500
+Address: 16RishikeshUttarakhand
+Availability: 1
+Facing: west
+Landmark: NearLaxmanJhula
+Ownership: own
+Floors: 4/7
+Bedrooms: 2
+Lift: 0
+Parking: 1
+Maintenance: 2300
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_UDA_5678_1760037878
+Owner: uday
+Latitude: 31
+Longitude: 77
+Price: 11500000
+Area: 2900
+Address: 49ManaliHimachalPradesh
+Availability: 1
+Facing: north
+Landmark: NearSolangValley
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 0
+DTCP Approved: 0
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_VAM_9012_1760037901
+Owner: vamsi
+Latitude: 24
+Longitude: 74
+Price: 8000000
+Area: 1300
+Address: 82MountAbuRajasthan
+Availability: 1
+Facing: south
+Landmark: NearNakkiLake
+Ownership: own
+Floors: 6/10
+Bedrooms: 2
+Lift: 1
+Parking: 1
+Maintenance: 2700
+Furnishing: furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_YAS_3456_1760037924
+Owner: yash
+Latitude: 26
+Longitude: 73
+Price: 13500000
+Area: 3300
+Address: 18PushkarRajasthan
+Availability: 1
+Facing: east
+Landmark: NearBrahmaTemple
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_ZOY_7890_1760037947
+Owner: zoya
+Latitude: 12
+Longitude: 76
+Price: 9500000
+Area: 1600
+Address: 51CoorgKarnataka
+Availability: 1
+Facing: west
+Landmark: NearAbbeyFalls
+Ownership: own
+Floors: 9/14
+Bedrooms: 3
+Lift: 1
+Parking: 2
+Maintenance: 3900
+Furnishing: unfurnished
+----------------------------------------
+Type: Land
+Property ID: LAN_AKH_2345_1760037970
+Owner: akhil
+Latitude: 13
+Longitude: 77
+Price: 14500000
+Area: 3600
+Address: 84ElectronicCityBangalore
+Availability: 1
+Facing: north
+Landmark: NearWiproGate
+Ownership: own
+Land Type: residential
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Apartment
+Property ID: APA_BHA_6789_1760037993
+Owner: bhavin
+Latitude: 18
+Longitude: 83
+Price: 9000000
+Area: 1400
+Address: 20RushikondaVisakhapatnam
+Availability: 1
+Facing: south
+Landmark: NearGITAMUniversity
+Ownership: own
+Floors: 7/11
+Bedrooms: 3
+Lift: 1
+Parking: 1
+Maintenance: 3300
+Furnishing: semi-furnished
+----------------------------------------
+Type: Land
+Property ID: LAN_CHA_1234_1760038016
+Owner: chaitanya
+Latitude: 16
+Longitude: 82
+Price: 4500000
+Area: 4600
+Address: 53AmalapuramAndhraPradesh
+Availability: 1
+Facing: north-east
+Landmark:
+Ownership: own
+Land Type: commercial
+Compound Wall: 1
+Near Main Road: 1
+DTCP Approved: 1
+Electricity: 1
+Water: 1
+----------------------------------------
+Type: Villa
+Property ID: VIL_SAN_837261_1760466700
+Owner: sandeep
+Latitude: 12.85
+Longitude: 80.22
+Price: 35000000
+Area: 3200
+Address: 15AkkaraiEastCoastRoadChennai
+Availability: 1
+Facing: east
+Landmark: VGPUniversalKingdom
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_PRI_928374_1760466725
+Owner: priya
+Latitude: 12.91
+Longitude: 80.23
+Price: 28000000
+Area: 2800
+Address: 22PalavakkamEastCoastRoadChennai
+Availability: 1
+Facing: north
+Landmark: OliveBeach
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4000
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ARJ_193847_1760466750
+Owner: arjun
+Latitude: 13.04
+Longitude: 80.20
+Price: 42000000
+Area: 4000
+Address: 7BoatClubRoadAlwarpetChennai
+Availability: 1
+Facing: west
+Landmark: TheMadrasClub
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_MEE_564738_1760466775
+Owner: meera
+Latitude: 12.97
+Longitude: 80.21
+Price: 31000000
+Area: 3000
+Address: 43SholinganallurOMRChennai
+Availability: 0
+Facing: south
+Landmark: SathyabamaUniversity
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4500
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KAR_283746_1760466800
+Owner: karthik
+Latitude: 13.08
+Longitude: 80.21
+Price: 38000000
+Area: 3500
+Address: 18HarringtonRoadChetpetChennai
+Availability: 1
+Facing: north-east
+Landmark: MCCSchool
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SIT_938271_1760466825
+Owner: sita
+Latitude: 12.82
+Longitude: 80.21
+Price: 26000000
+Area: 2700
+Address: 5UthandiEastCoastRoadChennai
+Availability: 1
+Facing: south-west
+Landmark: PVRECR
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 3900
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_VIK_473829_1760466850
+Owner: vikram
+Latitude: 13.06
+Longitude: 80.25
+Price: 55000000
+Area: 5000
+Address: 12PoesGardenTeynampetChennai
+Availability: 1
+Facing: east
+Landmark: ApolloHospitals
+Ownership: own
+Bedrooms: 6
+Garden: 1
+Private Pool: 1
+Plot Area: 7500
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ANI_657483_1760466875
+Owner: anita
+Latitude: 12.99
+Longitude: 80.24
+Price: 33000000
+Area: 3100
+Address: 3BesantNagarChennai
+Availability: 1
+Facing: north
+Landmark: Elliot'sBeach
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 0
+Plot Area: 4200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RAJ_384756_1760466900
+Owner: rajesh
+Latitude: 12.89
+Longitude: 80.22
+Price: 29500000
+Area: 2900
+Address: 19NeelankaraiEastCoastRoadChennai
+Availability: 0
+Facing: south-east
+Landmark: HotBreads
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4300
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_DEE_746352_1760466925
+Owner: deepa
+Latitude: 13.09
+Longitude: 80.19
+Price: 36000000
+Area: 3400
+Address: 9AnnaNagarWestChennai
+Availability: 1
+Facing: west
+Landmark: AnnaNagarTowerPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5000
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SUN_837261_1760466950
+Owner: sunil
+Latitude: 12.92
+Longitude: 80.13
+Price: 27500000
+Area: 2850
+Address: 28PallavaramGSTRoadChennai
+Availability: 1
+Facing: east
+Landmark: ChennaiInternationalAirport
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4100
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KAV_192837_1760466975
+Owner: kavita
+Latitude: 13.00
+Longitude: 80.26
+Price: 48000000
+Area: 4500
+Address: 6SanthomeHighRoadMylaporeChennai
+Availability: 1
+Facing: south
+Landmark: SanThomeBasilica
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6500
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_MOH_473625_1760467000
+Owner: mohan
+Latitude: 12.96
+Longitude: 80.18
+Price: 32500000
+Area: 3150
+Address: 34PorurChennai
+Availability: 1
+Facing: north
+Landmark: DLFITPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4700
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SUM_635241_1760467025
+Owner: sumitra
+Latitude: 12.80
+Longitude: 80.20
+Price: 28500000
+Area: 2950
+Address: 11KanathurEastCoastRoadChennai
+Availability: 0
+Facing: west
+Landmark: MayajaalMultiplex
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4400
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_PRA_928374_1760467050
+Owner: prakash
+Latitude: 13.07
+Longitude: 80.23
+Price: 39500000
+Area: 3800
+Address: 21KilpaukChennai
+Availability: 1
+Facing: north-west
+Landmark: KilpaukMedicalCollege
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5500
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_GIT_102938_1760467075
+Owner: gita
+Latitude: 12.94
+Longitude: 80.24
+Price: 34000000
+Area: 3300
+Address: 8ThiruvanmiyurChennai
+Availability: 1
+Facing: south-east
+Landmark: TidelPark
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_HAR_573625_1760467100
+Owner: harish
+Latitude: 12.79
+Longitude: 80.05
+Price: 25000000
+Area: 2600
+Address: 14GuduvancheriGSTRoadChennai
+Availability: 1
+Facing: east
+Landmark: SRMUniversity
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 3800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_LAK_928371_1760467125
+Owner: lakshmi
+Latitude: 13.02
+Longitude: 80.22
+Price: 41000000
+Area: 3900
+Address: 2WallaceGardenNungambakkamChennai
+Availability: 1
+Facing: north
+Landmark: ApolloChildren'sHospital
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 5800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_NAV_463524_1760467150
+Owner: naveen
+Latitude: 12.95
+Longitude: 80.14
+Price: 30500000
+Area: 3050
+Address: 40ManapakkamChennai
+Availability: 0
+Facing: south
+Landmark: MIOTInternationalHospital
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4600
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_UMA_817263_1760467175
+Owner: uma
+Latitude: 12.87
+Longitude: 80.22
+Price: 31500000
+Area: 3100
+Address: 16InjambakkamEastCoastRoadChennai
+Availability: 1
+Facing: west
+Landmark: PrarthanaDrive-InTheatre
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RAV_482736_1760467200
+Owner: ravi
+Latitude: 13.11
+Longitude: 80.25
+Price: 37000000
+Area: 3600
+Address: 29PeramburChennai
+Availability: 1
+Facing: north-east
+Landmark: IntegralCoachFactory
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5300
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SAR_918273_1760467225
+Owner: sarah
+Latitude: 13.03
+Longitude: 80.27
+Price: 60000000
+Area: 5500
+Address: 5MRCNagarRajaAnnamalaiPuramChennai
+Availability: 1
+Facing: east
+Landmark: TheLeelaPalaceChennai
+Ownership: own
+Bedrooms: 6
+Garden: 1
+Private Pool: 1
+Plot Area: 8000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_BAL_657483_1760467250
+Owner: balu
+Latitude: 12.90
+Longitude: 80.08
+Price: 28000000
+Area: 2900
+Address: 33TambaramSanatoriumGSTRoadChennai
+Availability: 1
+Facing: south-west
+Landmark: MadrasExportProcessingZone(MEPZ)
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4200
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_CHH_293847_1760467275
+Owner: chhavi
+Latitude: 12.98
+Longitude: 80.20
+Price: 34500000
+Area: 3350
+Address: 10GuindyChennai
+Availability: 0
+Facing: north
+Landmark: GuindyNationalPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_DHR_182736_1760467300
+Owner: dhruv
+Latitude: 12.97
+Longitude: 80.25
+Price: 43000000
+Area: 4100
+Address: 1AdyarChennai
+Availability: 1
+Facing: west
+Landmark: TheTheosophicalSociety
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_GAN_593827_1760467325
+Owner: ganesh
+Latitude: 12.84
+Longitude: 80.06
+Price: 26500000
+Area: 2750
+Address: 24VandalurGSTRoadChennai
+Availability: 1
+Facing: south-east
+Landmark: ArignarAnnaZoologicalPark
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4000
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ISH_827361_1760467350
+Owner: ishan
+Latitude: 13.05
+Longitude: 80.23
+Price: 38500000
+Area: 3700
+Address: 17EgmoreChennai
+Availability: 1
+Facing: north
+Landmark: GovernmentMuseumChennai
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 0
+Plot Area: 5100
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_JAY_473625_1760467375
+Owner: jaya
+Latitude: 12.83
+Longitude: 80.21
+Price: 30000000
+Area: 3000
+Address: 2KovalamEastCoastRoadChennai
+Availability: 1
+Facing: east
+Landmark: TajFisherman'sCove
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4500
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KUM_192837_1760467400
+Owner: kumar
+Latitude: 13.10
+Longitude: 80.28
+Price: 35000000
+Area: 3450
+Address: 27TondiarpetChennai
+Availability: 0
+Facing: west
+Landmark: BharathiWomen'sCollege
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_MAD_657483_1760467425
+Owner: madhu
+Latitude: 12.92
+Longitude: 80.19
+Price: 31000000
+Area: 3100
+Address: 35AlandurChennai
+Availability: 1
+Facing: south
+Landmark: St.ThomasMount
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_NEH_293847_1760467450
+Owner: neha
+Latitude: 13.01
+Longitude: 80.23
+Price: 45000000
+Area: 4300
+Address: 4T.NagarChennai
+Availability: 1
+Facing: north-east
+Landmark: PondyBazaar
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6400
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_OMK_736251_1760467475
+Owner: omkar
+Latitude: 12.81
+Longitude: 80.03
+Price: 24000000
+Area: 2500
+Address: 18MaraimalaiNagarGSTRoadChennai
+Availability: 1
+Facing: north-west
+Landmark: FordIndiaFactory
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 3700
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_POO_593827_1760467500
+Owner: pooja
+Latitude: 12.99
+Longitude: 80.19
+Price: 33500000
+Area: 3250
+Address: 23AshokNagarChennai
+Availability: 1
+Facing: south-west
+Landmark: AshokPillar
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4900
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RAH_182736_1760467525
+Owner: rahul
+Latitude: 12.75
+Longitude: 79.98
+Price: 22000000
+Area: 2400
+Address: 30SingaperumalKoilGSTRoadChennai
+Availability: 0
+Facing: east
+Landmark: MahindraWorldCity
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 3600
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RIT_473625_1760467550
+Owner: ritu
+Latitude: 12.93
+Longitude: 80.20
+Price: 32000000
+Area: 3150
+Address: 6VelacheryChennai
+Availability: 1
+Facing: north
+Landmark: PhoenixMarketCity
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 1
+Plot Area: 4700
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SAM_928371_1760467575
+Owner: samir
+Latitude: 12.86
+Longitude: 80.22
+Price: 30000000
+Area: 2950
+Address: 25VettuvankeniEastCoastRoadChennai
+Availability: 1
+Facing: south
+Landmark: CholamandalArtists'Village
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4400
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_TAN_657483_1760467600
+Owner: tanvi
+Latitude: 13.06
+Longitude: 80.28
+Price: 50000000
+Area: 4800
+Address: 3RoyapuramChennai
+Availability: 1
+Facing: west
+Landmark: RoyapuramFishingHarbour
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 7000
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_VAR_293847_1760467625
+Owner: varun
+Latitude: 13.00
+Longitude: 80.21
+Price: 37500000
+Area: 3650
+Address: 11WestMambalamChennai
+Availability: 1
+Facing: east
+Landmark: AyodhyaMandapam
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 0
+Plot Area: 5400
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_YAS_182736_1760467650
+Owner: yash
+Latitude: 12.95
+Longitude: 80.09
+Price: 29000000
+Area: 2800
+Address: 26ChromepetGSTRoadChennai
+Availability: 0
+Facing: north-east
+Landmark: MadrasInstituteofTechnology
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ZAR_593827_1760467675
+Owner: zara
+Latitude: 12.98
+Longitude: 80.25
+Price: 46000000
+Area: 4400
+Address: 9AlwarpetChennai
+Availability: 1
+Facing: south-west
+Landmark: CrownePlazaChennaiAdyarPark
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6600
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ADI_827361_1760467700
+Owner: aditya
+Latitude: 12.91
+Longitude: 80.23
+Price: 33000000
+Area: 3200
+Address: 13KottivakkamEastCoastRoadChennai
+Availability: 1
+Facing: north
+Landmark: AmericanInternationalSchoolChennai
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_BHA_473625_1760467725
+Owner: bhavna
+Latitude: 13.09
+Longitude: 80.20
+Price: 39000000
+Area: 3800
+Address: 20MogappairChennai
+Availability: 1
+Facing: south-east
+Landmark: MadrasMedicalMission
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5600
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_CHE_192837_1760467750
+Owner: chetan
+Latitude: 13.03
+Longitude: 80.19
+Price: 35500000
+Area: 3400
+Address: 31VadapalaniChennai
+Availability: 1
+Facing: west
+Landmark: ForumVijayaMall
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5100
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_DIV_657483_1760467775
+Owner: divya
+Latitude: 12.84
+Longitude: 80.22
+Price: 32500000
+Area: 3150
+Address: 4PanaiyurEastCoastRoadChennai
+Availability: 0
+Facing: north
+Landmark: ISKCONTempleChennai
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4900
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_EKA_293847_1760467800
+Owner: ekansh
+Latitude: 12.96
+Longitude: 80.06
+Price: 28000000
+Area: 2850
+Address: 39IyyappanthangalChennai
+Availability: 1
+Facing: east
+Landmark: SriRamachandraMedicalCentre
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4300
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_FAR_182736_1760467825
+Owner: farah
+Latitude: 13.02
+Longitude: 80.25
+Price: 47000000
+Area: 4500
+Address: 10MandaveliChennai
+Availability: 1
+Facing: south
+Landmark: RamakrishnaMath
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_GOP_593827_1760467850
+Owner: gopal
+Latitude: 13.12
+Longitude: 80.14
+Price: 36500000
+Area: 3500
+Address: 2AmbatturChennai
+Availability: 1
+Facing: west
+Landmark: AmbatturIndustrialEstate
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5400
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_HEM_827361_1760467875
+Owner: hema
+Latitude: 12.78
+Longitude: 79.95
+Price: 23000000
+Area: 2500
+Address: 41Chengalpattu
+Availability: 1
+Facing: north-west
+Landmark: ChengalpattuMedicalCollege
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 3800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_IND_473625_1760467900
+Owner: indra
+Latitude: 12.90
+Longitude: 80.22
+Price: 34000000
+Area: 3300
+Address: 29PalavakkamECRChennai
+Availability: 1
+Facing: south-east
+Landmark: MarundeeswararTemple
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_JAI_192837_1760467925
+Owner: jai
+Latitude: 13.07
+Longitude: 80.26
+Price: 52000000
+Area: 4900
+Address: 14GeorgeTownChennai
+Availability: 0
+Facing: north
+Landmark: MadrasHighCourt
+Ownership: own
+Bedrooms: 5
+Garden: 0
+Private Pool: 0
+Plot Area: 7000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KAM_657483_1760467950
+Owner: kamal
+Latitude: 12.94
+Longitude: 80.12
+Price: 30000000
+Area: 3000
+Address: 32KundrathurChennai
+Availability: 1
+Facing: east
+Landmark: KundrathurMuruganTemple
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4600
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_LAL_293847_1760467975
+Owner: lalita
+Latitude: 13.03
+Longitude: 80.20
+Price: 40000000
+Area: 3900
+Address: 7ArumbakkamChennai
+Availability: 1
+Facing: south
+Landmark: CMBTBusTerminus
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_MAN_182736_1760468000
+Owner: manoj
+Latitude: 12.80
+Longitude: 80.15
+Price: 27000000
+Area: 2800
+Address: 18PerungalathurGSTRoadChennai
+Availability: 1
+Facing: west
+Landmark: PerungalathurRailwayStation
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4100
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_NAM_593827_1760468025
+Owner: namrata
+Latitude: 12.88
+Longitude: 80.22
+Price: 33500000
+Area: 3250
+Address: 15VGPLayoutInjambakkamChennai
+Availability: 1
+Facing: north-east
+Landmark: VGPGoldenBeachResort
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_PAV_827361_1760468050
+Owner: pavan
+Latitude: 13.14
+Longitude: 80.23
+Price: 36000000
+Area: 3550
+Address: 25MadhavaramChennai
+Availability: 1
+Facing: south-west
+Landmark: MadhavaramBotanicalGarden
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5300
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RAJ_473625_1760468075
+Owner: raj
+Latitude: 13.05
+Longitude: 80.20
+Price: 42000000
+Area: 4000
+Address: 11AnnaSalaiChennai
+Availability: 0
+Facing: east
+Landmark: SpencerPlazaMall
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SAN_192837_1760468100
+Owner: sanjana
+Latitude: 12.96
+Longitude: 80.23
+Price: 35000000
+Area: 3400
+Address: 22SaidapetChennai
+Availability: 1
+Facing: north
+Landmark: PanagalPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5100
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SHA_657483_1760468125
+Owner: shahid
+Latitude: 12.92
+Longitude: 80.21
+Price: 31000000
+Area: 3050
+Address: 33MadipakkamChennai
+Availability: 1
+Facing: south
+Landmark: KamakshiMemorialHospital
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4700
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_TIN_293847_1760468150
+Owner: tina
+Latitude: 12.82
+Longitude: 80.21
+Price: 29500000
+Area: 2900
+Address: 8UthandiBeachECRChennai
+Availability: 1
+Facing: west
+Landmark: MuttukaduBoatHouse
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4400
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_VIJ_182736_1760468175
+Owner: vijay
+Latitude: 13.04
+Longitude: 80.18
+Price: 44000000
+Area: 4200
+Address: 19KoyambeduChennai
+Availability: 1
+Facing: north-east
+Landmark: SAFGamesVillage
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6300
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ANK_593827_1760468200
+Owner: ankur
+Latitude: 12.97
+Longitude: 80.10
+Price: 32000000
+Area: 3150
+Address: 27PoonamalleeChennai
+Availability: 0
+Facing: south-west
+Landmark: SaveethaDentalCollege
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_DEE_827361_1760468225
+Owner: deepak
+Latitude: 12.79
+Longitude: 80.20
+Price: 28500000
+Area: 2800
+Address: 3KelambakkamOMRChennai
+Availability: 1
+Facing: east
+Landmark: HindustanInstituteofTechnology
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4200
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_GAY_473625_1760468250
+Owner: gayatri
+Latitude: 13.08
+Longitude: 80.22
+Price: 39500000
+Area: 3850
+Address: 12PurasawalkamChennai
+Availability: 1
+Facing: north
+Landmark: AbiramiMegaMall
+Ownership: own
+Bedrooms: 4
+Garden: 0
+Private Pool: 0
+Plot Area: 5700
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KRI_192837_1760468275
+Owner: kripa
+Latitude: 12.99
+Longitude: 80.26
+Price: 48000000
+Area: 4600
+Address: 7ForeshoreEstateMylaporeChennai
+Availability: 1
+Facing: south
+Landmark: MarinaBeach
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6900
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_MAY_657483_1760468300
+Owner: mayank
+Latitude: 12.93
+Longitude: 80.10
+Price: 30500000
+Area: 3000
+Address: 30GerugambakkamChennai
+Availability: 1
+Facing: west
+Landmark: PSBBMillenniumSchool
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4500
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_NIS_293847_1760468325
+Owner: nisha
+Latitude: 12.85
+Longitude: 80.22
+Price: 32000000
+Area: 3100
+Address: 17AkkaraiBeachECRChennai
+Availability: 1
+Facing: north-east
+Landmark: ISKCONTemple
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_PRE_182736_1760468350
+Owner: prem
+Latitude: 13.06
+Longitude: 80.19
+Price: 41000000
+Area: 3950
+Address: 23AminjikaraiChennai
+Availability: 0
+Facing: south-west
+Landmark: AmpaSkywalkMall
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6000
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_RIC_593827_1760468375
+Owner: richa
+Latitude: 12.95
+Longitude: 80.20
+Price: 33000000
+Area: 3200
+Address: 34EkkaduthangalChennai
+Availability: 1
+Facing: east
+Landmark: OlympiaTechPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4900
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ROH_827361_1760468400
+Owner: rohit
+Latitude: 12.90
+Longitude: 80.15
+Price: 29000000
+Area: 2850
+Address: 36PammalChennai
+Availability: 1
+Facing: north
+Landmark: PammalMainRoad
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4300
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SAH_473625_1760468425
+Owner: sahil
+Latitude: 13.00
+Longitude: 80.27
+Price: 55000000
+Area: 5200
+Address: 8BesantAvenueAdyarChennai
+Availability: 1
+Facing: south
+Landmark: KalakshetraFoundation
+Ownership: own
+Bedrooms: 6
+Garden: 1
+Private Pool: 1
+Plot Area: 7800
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_SWA_192837_1760468450
+Owner: swati
+Latitude: 13.08
+Longitude: 80.18
+Price: 38000000
+Area: 3700
+Address: 1ThirumangalamAnnaNagarChennai
+Availability: 1
+Facing: west
+Landmark: ThirumangalamMetroStation
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5500
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_UTS_657483_1760468475
+Owner: utsav
+Latitude: 12.83
+Longitude: 80.05
+Price: 27500000
+Area: 2700
+Address: 37UrapakkamGSTRoadChennai
+Availability: 1
+Facing: north-east
+Landmark: UrapakkamRailwayStation
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4000
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_VAN_293847_1760468500
+Owner: vandana
+Latitude: 12.98
+Longitude: 80.23
+Price: 36000000
+Area: 3500
+Address: 16KotturpuramChennai
+Availability: 0
+Facing: south-west
+Landmark: AnnaCentenaryLibrary
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5300
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_VIV_182736_1760468525
+Owner: vivek
+Latitude: 12.89
+Longitude: 80.22
+Price: 34000000
+Area: 3300
+Address: 19ThoraipakkamOMRChennai
+Availability: 1
+Facing: east
+Landmark: BSRMall
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 5000
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_YUV_593827_1760468550
+Owner: yuvika
+Latitude: 13.11
+Longitude: 80.20
+Price: 40000000
+Area: 3900
+Address: 28KolathurChennai
+Availability: 1
+Facing: north
+Landmark: RetteriLake
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_AKH_827361_1760468575
+Owner: akhil
+Latitude: 12.92
+Longitude: 80.07
+Price: 29500000
+Area: 2950
+Address: 38AnakaputhurChennai
+Availability: 1
+Facing: south
+Landmark: NearPallavaramMarket
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 0
+Plot Area: 4500
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_BHA_473625_1760468600
+Owner: bharat
+Latitude: 13.06
+Longitude: 80.24
+Price: 43000000
+Area: 4100
+Address: 24VeperyChennai
+Availability: 1
+Facing: west
+Landmark: TheSalvationArmyChurch
+Ownership: own
+Bedrooms: 5
+Garden: 1
+Private Pool: 1
+Plot Area: 6200
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_DIK_192837_1760468625
+Owner: diksha
+Latitude: 12.80
+Longitude: 80.19
+Price: 31500000
+Area: 3100
+Address: 4SiruseriOMRChennai
+Availability: 1
+Facing: north-east
+Landmark: SIPCOTITPark
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 1
+Plot Area: 4800
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_GAU_657483_1760468650
+Owner: gaurav
+Latitude: 12.96
+Longitude: 80.16
+Price: 32500000
+Area: 3200
+Address: 42RamapuramChennai
+Availability: 0
+Facing: south-west
+Landmark: SRMEaswariEngineeringCollege
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 4900
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_ISH_293847_1760468675
+Owner: isha
+Latitude: 12.74
+Longitude: 80.18
+Price: 28000000
+Area: 2750
+Address: 9MahabalipuramECR
+Availability: 1
+Facing: east
+Landmark: ShoreTemple
+Ownership: own
+Bedrooms: 3
+Garden: 1
+Private Pool: 1
+Plot Area: 4100
+Garage: 1
+Furnishing: unfurnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_JAT_182736_1760468700
+Owner: jatin
+Latitude: 13.16
+Longitude: 80.24
+Price: 37000000
+Area: 3600
+Address: 2ManaliChennai
+Availability: 1
+Facing: north
+Landmark: ChennaiPetroleumCorporation
+Ownership: own
+Bedrooms: 4
+Garden: 1
+Private Pool: 0
+Plot Area: 5400
+Garage: 1
+Furnishing: furnished
+----------------------------------------
+Type: Villa
+Property ID: VIL_KAR_593827_1760468725
+Owner: karishma
+Latitude: 13.02
+Longitude: 80.28
+Price: 49000000
+Area: 4700
+Address: 13TriplicaneChennai
+Availability: 1
+Facing: south
+Landmark: ParthasarathyTemple
+Ownership: own
+Bedrooms: 5
+Garden: 0
+Private Pool: 1
+Plot Area: 6900
+Garage: 1
+Furnishing: semi-furnished
+----------------------------------------
