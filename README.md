@@ -27,22 +27,39 @@
 - **Properties are loaded from a text file (`properties.txt`) in the following format:**
 
 Type: Villa
+
 Property ID: VIL_KAR_593827_1760468725
+
 Owner: karishma
+
 Latitude: 13.02
+
 Longitude: 80.28
+
 Price: 49000000
+
 Area: 4700
+
 Address: 13TriplicaneChennai
+
 Availability: 1
+
 Facing: south
+
 Landmark: ParthasarathyTemple
+
 Ownership: own
+
 Bedrooms: 5
+
 Garden: 0
+
 Private Pool: 1
+
 Plot Area: 6900
+
 Garage: 1
+
 Furnishing: semi-furnished
 
 
@@ -61,9 +78,11 @@ Furnishing: semi-furnished
     git clone "https://github.com/sajinzx/PropertySearchEngine.git"
 
 2. Compile :
+    ```bash
     g++ -std=c++17 *.cpp -o PropertyFinder
 
 3. Run the executable:
+    ```bash
     ./PropertyFinder
 
 
