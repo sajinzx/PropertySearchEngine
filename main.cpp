@@ -10,6 +10,7 @@
 #include "QuadTree.h"
 #include "loadQuadTree.h"
 #include <cmath>
+#include "heap.h"
 using namespace std;
 
 void saveToFile(const string& type, const string& details) {
@@ -758,8 +759,14 @@ void Finding()
 
     Boundary indiaBoundary(0, 0, 100, 100); // example boundary
     QuadTree qt(indiaBoundary);
-
     loadQuadTreeFromFile("properties.txt", qt);
+
+    Heap apartmentHeap, villaHeap, landHeap;
+    apartmentHeap.loadFromFile("properties.txt", "Apartment");
+    villaHeap.loadFromFile("properties.txt", "Villa");
+    landHeap.loadFromFile("properties.txt", "Land");
+
+
     int choice;
     cout<<"You Chose Finding Property\n";
     cout<<"What are you looking for\n";
@@ -834,9 +841,16 @@ void Finding()
                     searchByLocation(qt, "APA_");
                     break;
                 }
-                case 4:
-                    cout<<"Search By Price\n";
+                case 4: {
+                    cout << "Search Apartments by Price\n";
+                    double maxPrice;
+                    cout << "Enter maximum price: ";
+                    cin >> maxPrice;
+
+                    cout << "\nApartments with price <= " << maxPrice << ":\n";
+                    apartmentHeap.showPropertiesBelow(maxPrice);
                     break;
+                }
                 case 5:
                     cout<<"Search By Bedrooms\n";
                     break;
@@ -910,9 +924,16 @@ void Finding()
                     searchByLocation(qt, "VIL_");
                     break;
                 }
-                case 4:
-                    cout<<"Search By Price\n";
+                case 4: {
+                    cout << "Search Villas by Price\n";
+                    double maxPrice;
+                    cout << "Enter maximum price: ";
+                    cin >> maxPrice;
+
+                    cout << "\nVillas with price <= " << maxPrice << ":\n";
+                    villaHeap.showPropertiesBelow(maxPrice);
                     break;
+                }
                 case 5:
                     cout<<"Search By Bedrooms\n";
                     break;
@@ -989,9 +1010,16 @@ void Finding()
                     searchByLocation(qt, "LAN_");
                     break;
                 }
-                case 4:
-                    cout<<"Search By Price\n";
+                case 4:{
+                    cout << "Search Lands by Price\n";
+                    double maxPrice;
+                    cout << "Enter maximum price: ";
+                    cin >> maxPrice;
+
+                    cout << "\nLands with price <= " << maxPrice << ":\n";
+                    landHeap.showPropertiesBelow(maxPrice);
                     break;
+                }
                 case 5:
                     cout<<"Search By DTCP\n";
                     break;
